@@ -11,38 +11,38 @@ const Gallery = () => {
       title: "Precast Segment Mould",
       category: "Equipment",
       description: "Precision engineered moulds for bridge segments",
-      image: "/lovable-uploads/rkc.jpg"
+      image: "/lovable-uploads/bhopal_metro.jpg"
     },
     {
       title: "Launching Girder in Action",
       category: "Equipment",
       description: "Heavy-duty launching girder during bridge construction",
-      image: "/lovable-uploads/"
+      image: "/lovable-uploads/four_lane_road.jpg"
     },
     {
       title: "Fabrication Workshop",
       category: "Facilities",
       description: "State-of-the-art manufacturing facility in Bhopal",
-      image: "/lovable-uploads/"
+      image: "/lovable-uploads/ganga_river_bridge.jpg"
     },
     {
       title: "Quality Control Lab",
       category: "Facilities",
       description: "Advanced testing and quality assurance facility",
-      image: "/lovable-uploads/"
+      image: "/lovable-uploads/ganga_river_bridge1.jpg"
     },
     
     {
       title: "Highway Overpass",
       category: "Projects",
       description: "Multi-span highway bridge using post-tensioned girders",
-      image: "/lovable-uploads/"
+      image: "/lovable-uploads/ganga_river_bridge2.jpg"
     },
     {
       title: "Segment Casting",
       category: "Manufacturing",
       description: "Precast segment production line",
-      image: "/lovable-uploads/"
+      image: "/lovable-uploads/indore_metro.jpg"
     },
     {
       title: "",
