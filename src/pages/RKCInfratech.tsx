@@ -12,7 +12,10 @@ const RKCInfratech = () => {
     "U Girder shuttering",
     "Thrust wall",
     "Shoring",
-    "Pier and Pier Cap shuttering"
+    "Pier and Pier Cap shuttering",
+    "Temporary Access Bridge",
+    "Pontoons",
+    "Load Out Jettys"
   ];
 
   const reasons = [
