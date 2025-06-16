@@ -53,7 +53,7 @@ const Home = () => {
   return (
     <div>
       <Hero
-        title="Precision Infrastructure Solutions – From Design to Execution"
+        title="Precision Infrastructure Solutions – From Enabling Structure Design to Execution "
         subtitle="4 specialized firms. 1 seamless workflow."
       >
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
