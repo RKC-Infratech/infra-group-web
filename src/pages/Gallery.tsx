@@ -43,6 +43,78 @@ const Gallery = () => {
       category: "Manufacturing",
       description: "Precast segment production line",
       image: "/lovable-uploads/indore_metro.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/indore_metro1.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/indore_metro2.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/indore_metro3.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/krishna_river_bridge.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/krishna_river_bridge1.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/mthl.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/mumbai_metro.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/pune_e2_project.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/sharavathi_backwater_bridge.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/surat_metro.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/surat_metro1.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/vizag.jpg"
     }
   ];
 
