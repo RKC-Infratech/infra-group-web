@@ -10,61 +10,61 @@ const About = () => {
       name: "R.K. Choubey",
       position: "Founder & Head (Enabling/Temporary Structures Specialist)",
       bio: "M. Tech from Dr APJ Abdul Kalam Technical University. Post Graduate in Project Management. 14+ years in temporary structure design. Designed various LGs, lifting frames, ground support systems, molds, pre-tensioning yards, and shuttering. Renowned for innovative and detail-oriented bridge design, client focus, and continuous learning in modern engineering.",
-      image: "/lovable-uploads/rkc-infratech.png"
+      image: "/lovable-uploads/rkc.jpg"
     },
     {
       name: "Sai Bhavith EV",
       position: "Sr. Manager Design",
       bio: "M.Tech in Structural Engineering from VIT. 5+ years in temporary structure design for leading firms. Expert in safety-driven, efficient temporary and precast designs. Collaborative, proactive in problem-solving, and dedicated to high-quality, sustainable structures.",
-      image: "/lovable-uploads/3d058085-125c-4835-ba9c-5b3b8492b5a5.png"
+      image: "/lovable-uploads/sai.jpg"
     },
     {
       name: "Dheeraj Kumar",
       position: "CAD Engineer",
       bio: "Innovative CAD expert for enabling structure drawings. Focused on aesthetic, strategic designs and close client collaboration. Delivers quality, efficiency, and success in high-profile projects.",
-      image: "/lovable-uploads/5558ae05-e6ec-41d2-9667-53db85f0ce8c.png"
+      image: "/lovable-uploads/dheeraj.jpg"
     },
     {
       name: "Kiran Choubey",
       position: "HR & Administration",
       bio: "BA, Veer Kumwar Singh University. Responsible for HR management and administration, ensuring strong support for the team and an excellent work environment.",
-      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+      image: "/lovable-uploads/kiran.jpg"
     },
     {
       name: "Pranav Anand",
       position: "Jr. Engineer - Design",
       bio: "",
-      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+      image: "/lovable-uploads/pranav.jpg"
     },
     {
       name: "Poonam Raghuwanshi",
       position: "Jr. Engineer",
       bio: "",
-      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+      image: "/lovable-uploads/poonam.jpg"
     },
     {
       name: "Arghyadyuti Karmakar",
       position: "Sr. Engineer - CAD",
       bio: "",
-      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+      image: "/lovable-uploads/arghyadyuti.jpg"
     },
     {
       name: "Kapil Gupta",
       position: "Engineer - Design",
       bio: "",
-      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+      image: "/lovable-uploads/kapil.jpg"
     },
     {
       name: "Preeti Uikey",
       position: "Jr. Engineer",
       bio: "",
-      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+      image: "/lovable-uploads/preeti.jpg"
     },
     {
       name: "Amarjeet Pandit",
       position: "Head - Fabrication",
       bio: "",
-      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+      image: "/lovable-uploads/amarjeet.jpg"
     }
   ];
 
