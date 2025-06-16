@@ -24,7 +24,7 @@ const companies = [
   {
     name: "R.K. Choubey Family Office",
     specialization: "Investment & CSR",
-    contact: "invest@rkchoubey.com",
+    contact: "rkc@imagineeringbridges.com",
     mobile: ""
   }
 ];
