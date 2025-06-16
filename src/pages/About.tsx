@@ -29,6 +29,42 @@ const About = () => {
       position: "HR & Administration",
       bio: "BA, Veer Kumwar Singh University. Responsible for HR management and administration, ensuring strong support for the team and an excellent work environment.",
       image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+    },
+    {
+      name: "Pranav Anand",
+      position: "Jr. Engineer - Design",
+      bio: "",
+      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+    },
+    {
+      name: "Poonam Raghuwanshi",
+      position: "Jr. Engineer",
+      bio: "",
+      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+    },
+    {
+      name: "Arghyadyuti Karmakar",
+      position: "Sr. Engineer - CAD",
+      bio: "",
+      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+    },
+    {
+      name: "Kapil Gupta",
+      position: "Engineer - Design",
+      bio: "",
+      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+    },
+    {
+      name: "Preeti Uikey",
+      position: "Jr. Engineer",
+      bio: "",
+      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
+    },
+    {
+      name: "Amarjeet Pandit",
+      position: "Head - Fabrication",
+      bio: "",
+      image: "/lovable-uploads/WhatsApp Image 2025-06-13 at 12.12.53_98f5d5fd.jpg"
     }
   ];
 
