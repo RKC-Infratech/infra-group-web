@@ -39,7 +39,7 @@ const Projects = () => {
       location: "Shimla, India",
       year: "2023",
       details: "PIER CAP SHUTETRING, LAUNCHING GIRDER FOR ERECTION OF GIRDER, CASTING YARD, SEGMENT MOULD, GROUND SUPPORT SYSTEM (UNDER SLUNG LAUNCHING GIRDER), FORM WORK TRAVELLER",
-      image: "/lovable-uploads/", // Design/Fabrication
+      image: "/lovable-uploads/shimla_bypass_project.png", // Design/Fabrication
       client: "GAWAR CONSTRUCTION LTD"
     },
     {
