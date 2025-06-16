@@ -43,12 +43,6 @@ const Gallery = () => {
       category: "Manufacturing",
       description: "Precast segment production line",
       image: "/lovable-uploads/indore_metro.jpg"
-    },
-    {
-      title: "",
-      category: "",
-      description: "",
-      image: "/lovable-uploads/"
     }
   ];
 
