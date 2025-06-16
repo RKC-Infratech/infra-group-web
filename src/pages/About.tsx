@@ -90,10 +90,10 @@ const About = () => {
       <section className="py-8 bg-gradient-to-br from-blue-50/60 via-white to-slate-50">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 text-center">
           <h2 className="text-2xl sm:text-3xl font-bold text-primary mb-3">
-            We Build Bridges—in Structures & in People.
+          Imagineering Bridges – We dream & enable/build bridges
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
-            RKC Infratech Group is one of India's most trusted names in infrastructure, delivering outstanding projects with four specialist firms. From visionary design to seamless execution, our legacy is built on innovation, technical skill, and a relentless pursuit of quality.
+            Imagineering Bridges group is one of India’s most trusted named in infrastructure field with RKC Infratech providing execution friendly Enabling structure drawing and design and Imagineering bridges India LLP manufacturing quality enabling structure equipment’s. Riyare Micro construct LLP having expertise in precast super structure, river bridges, Balance cantilever, Cable Extra-dosed bridges and cable stayed bridges. The Group delivers quality and timely execution form Enabling structure design stage to Execution of bride projects. Our legacy is built on innovation, technical skills and relentless pursuit of quality.
           </p>
         </div>
       </section>
