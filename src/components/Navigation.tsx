@@ -13,8 +13,8 @@ const Navigation = () => {
       label: "Services",
       submenu: [
         { path: "/rkc-infratech", label: "RKC Infratech" },
-        { path: "/imagineering-bridges", label: "Imagineering Bridges" },
-        { path: "/riyare-micro-construct", label: "Riyare Micro Construct" },
+        { path: "/imagineering-bridges", label: "Imagineering Bridges India LLP" },
+        { path: "/riyare-micro-construct", label: "Riyare Micro Construct LLP" },
         { path: "/rkchoubey-family-office", label: "R.K. Choubey Family Office" },
       ]
     },
