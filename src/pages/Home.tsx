@@ -41,7 +41,7 @@ const Home = () => {
     },
     {
       title: "CHOUBEY OFFICE",
-      tagline: "Fueling India's next-generation infrastructure",
+      tagline: "Fueling India's futuristics idea for next generation",
       keyService: "Angel funding",
       icon: "💰",
       link: "/rkchoubey-family-office",
