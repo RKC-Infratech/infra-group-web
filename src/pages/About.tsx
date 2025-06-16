@@ -110,10 +110,7 @@ const About = () => {
             <div className="bg-primary/5 rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300 mb-8 md:mb-0">
               <h2 className="text-2xl font-bold text-primary mb-4">Our Vision</h2>
               <p className="text-base text-gray-700 mb-4">
-                To be India's leading infrastructure group, setting the benchmarks in bridge construction, design innovation, and investing in infrastructure technologies that uplift our nation.
-              </p>
-              <p className="text-base text-gray-700">
-                We build for the future, empowering the communities of tomorrow.
+              To be leading infrastructure group, setting the benchmarks in bridge construction field with providing enabling structure design firm (RKC Infratech), Manufacturing high quality Enabling structure projects (Imagineering Brigdes India LLP) and constructing quality bridge/structures respecting the time frame (Riyare Micro construct LLP). 
               </p>
             </div>
             <div className="bg-primary/5 rounded-xl p-8 shadow-sm hover:shadow-md transition-all duration-300">
