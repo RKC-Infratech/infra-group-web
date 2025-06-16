@@ -11,38 +11,44 @@ const Gallery = () => {
       title: "Precast Segment Mould",
       category: "Equipment",
       description: "Precision engineered moulds for bridge segments",
-      image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "/lovable-uploads/rkc.jpg"
     },
     {
       title: "Launching Girder in Action",
       category: "Equipment",
       description: "Heavy-duty launching girder during bridge construction",
-      image: "https://images.unsplash.com/photo-1581094794329-c8112a89af12?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "/lovable-uploads/"
     },
     {
       title: "Fabrication Workshop",
       category: "Facilities",
       description: "State-of-the-art manufacturing facility in Bhopal",
-      image: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "/lovable-uploads/"
     },
     {
       title: "Quality Control Lab",
       category: "Facilities",
       description: "Advanced testing and quality assurance facility",
-      image: "https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "/lovable-uploads/"
     },
     
     {
       title: "Highway Overpass",
       category: "Projects",
       description: "Multi-span highway bridge using post-tensioned girders",
-      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "/lovable-uploads/"
     },
     {
       title: "Segment Casting",
       category: "Manufacturing",
       description: "Precast segment production line",
-      image: "https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+      image: "/lovable-uploads/"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/"
     }
   ];
 
