@@ -51,7 +51,7 @@ const RKCInfratech = () => {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold text-gray-900 mb-6">
-                Leading Consultancy in Temporary Structure Design
+                LEADING CONSULTANCY FIRM IN FIELD OF ENABLING/TEMPORARY STRUCTURE DESIGN 
               </h2>
               <p className="text-lg text-gray-600 mb-6">
                 Based in Bhopal, RKC Infratech offers expert consultancy for temporary structure design used in bridge and infrastructure projects. Our team combines years of experience with innovative engineering solutions to deliver safe, efficient, and cost-effective designs.
