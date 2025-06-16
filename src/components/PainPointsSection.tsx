@@ -5,22 +5,22 @@ const PainPointsSection = () => {
   const painPoints = [
     {
       problem: "Delays due to design errors",
-      solution: "RKC's error-proof CAD designs",
+      solution: "RKCInfratech error proof Enabling Structure drawing and design",
       icon: "🖥"
     },
     {
       problem: "Costly fabrication delays",
-      solution: "Imagineering's ready stock",
+      solution: "Imagineering bridges abrication precision",
       icon: "🏭"
     },
     {
       problem: "Bridge construction risks",
-      solution: "Riyare's precast expertise",
+      solution: "Riyare Micro construct Precast Experience",
       icon: "🌉"
     },
     {
       problem: "Funding gaps",
-      solution: "Choubey's investment support",
+      solution: "Choubey investment support to startups as an Angel/individual; investor",
       icon: "💰"
     }
   ];
