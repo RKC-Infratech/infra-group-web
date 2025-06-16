@@ -19,7 +19,7 @@ const Projects = () => {
       location: "Vijaywada",
       year: "2024",
       details: "",
-      image: "https://images.unsplash.com/photo-1439337153520-7082a56a81f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80", // Construction
+      image: "/lovable-uploads/krishna_river_bridge1.jpg", // Construction
       client: "NAVYUGA ENGINERING COMPANY LTD"
     },
     {
@@ -29,7 +29,7 @@ const Projects = () => {
       location: "Karnataka",
       year: "2023",
       details: "",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80", // Design
+      image: "/lovable-uploads/sharavathi_backwater_bridge.jpg", // Design
       client: "AMRUTHA CONSTRUCTION PVT LTD"
     },
     {
@@ -39,7 +39,7 @@ const Projects = () => {
       location: "Shimla, India",
       year: "2023",
       details: "PIER CAP SHUTETRING, LAUNCHING GIRDER FOR ERECTION OF GIRDER, CASTING YARD, SEGMENT MOULD, GROUND SUPPORT SYSTEM (UNDER SLUNG LAUNCHING GIRDER), FORM WORK TRAVELLER",
-      image: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80", // Design/Fabrication
+      image: "/lovable-uploads/", // Design/Fabrication
       client: "GAWAR CONSTRUCTION LTD"
     },
     {
@@ -49,7 +49,7 @@ const Projects = () => {
       location: "Pune, Maharashtra",
       year: "2023",
       details: "PRE-TENSIONED GIRDER CASTING YARD, GIRDER SHUTTERING, PIER CAP CENTERING, ALL THE ENABLING STRUTCUTRE",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80", // Fabrication
+      image: "/lovable-uploads/mthl.jpg", // Fabrication
       client: "GAWAR CONSTRUCTION LTD"
     },
     {
@@ -59,7 +59,7 @@ const Projects = () => {
       location: "Mumbai, Maharashtra",
       year: "2022",
       details: "PRE-TENSIONED U GIRDER CASTING YARD & ITS FOUNDATIONS, PRE-TENSIONED GIRDER CASTING YARD, CROSS ARM LIFTER, LIFTING BEAMS, REBAR CAGE LIFTERS, STACKING BEAMS, REBAR JIG, TRANSPORTATION FRAMES, PIER CAP CENTERING, STRESSING PLATFORM, MOVABLE SHED, ALL THE ENABLING STRUTCUTRE",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80", // Design
+      image: "/lovable-uploads/mumbai_metro.jpg", // Design
       client: "GAWAR CONSTRUCTION LTD"
     },
     {
@@ -69,7 +69,7 @@ const Projects = () => {
       location: "Rajasthan",
       year: "2022",
       details: "CASTING YARD, SEGMENT MOULD, PIER TABLE CENTERING, STITCH CENTERING ARRANGEMENT, STRONG BACK, SEGMENT LIFTER",
-      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80", // Construction/Fabrication
+      image: "/lovable-uploads/ganga_river_bridge.jpg", // Construction/Fabrication
       client: "JANDU CONSTRUCTION INDIA PVT LTD"
     }
   ];
