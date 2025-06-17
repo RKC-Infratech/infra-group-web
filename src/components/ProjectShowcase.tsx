@@ -14,10 +14,10 @@ const ProjectShowcase = () => {
     },
     {
       id: 2,
-      title: "MAJOR BRIDGE OVER SHARAVATHI BACKWATWER",
-      category: "RKC Infratech",
-      image: "/lovable-uploads/sharavathi_backwater_bridge.jpg",
-      type: "LAUNCHING GIRDER FOR ERECTION OF GIRDER"
+      title: "MUMBAI METRO",
+      category: "Imagineering Bridges",
+      image: "/lovable-uploads/mumbai_metro.jpg",
+      type: "Design"
     },
     {
       id: 3,
