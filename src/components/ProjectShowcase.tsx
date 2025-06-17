@@ -7,24 +7,24 @@ const ProjectShowcase = () => {
   const projects = [
     {
       id: 1,
-      title: "CAD Design for Highway Bridge",
-      category: "Design (RKC)",
-      image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      type: "design"
+      title: "MAJOR BRIDGE OVER KRISHNA RIVER",
+      category: "Riyare Micro Construct",
+      image: "/lovable-uploads/krishna_river_bridge1.jpg",
+      type: "GROUND SUPPORT SYSTEM (UNDER SLUNG LAUNCHING GIRDER)"
     },
     {
       id: 2,
-      title: "Segment Mold Fabrication",
-      category: "Fabrication (Imagineering)",
-      image: "https://images.unsplash.com/photo-1460574283810-2aab119d8511?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      type: "fabrication"
+      title: "MAJOR BRIDGE OVER SHARAVATHI BACKWATWER",
+      category: "RKC Infratech",
+      image: "/lovable-uploads/sharavathi_backwater_bridge.jpg",
+      type: "LAUNCHING GIRDER FOR ERECTION OF GIRDER"
     },
     {
       id: 3,
-      title: "U-Girder Bridge Construction",
-      category: "Construction (Riyare)",
-      image: "https://images.unsplash.com/photo-1439337153520-7082a56a81f4?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      type: "construction"
+      title: "SHIMLA BYPASS PROJECT",
+      category: "Imagineering Bridges",
+      image: "/lovable-uploads/shimla_bypass_project.png",
+      type: "Design"
     },
     {
       id: 4,
