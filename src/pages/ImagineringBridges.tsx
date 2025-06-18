@@ -15,6 +15,69 @@ const ImagineringBridges = () => {
     "Pier Caps"
   ];
 
+  const projects = [
+    {
+      title: "MAJOR BRIDGE OVER KRISHNA RIVER",
+      firm: "Riyare Micro Construct",
+      type: "GROUND SUPPORT SYSTEM (UNDER SLUNG LAUNCHING GIRDER)",
+      location: "Vijaywada",
+      year: "2024",
+      details: "",
+      image: "/lovable-uploads/krishna_river_bridge1.jpg", // Construction
+      client: "NAVYUGA ENGINERING COMPANY LTD"
+    },
+    {
+      title: "MAJOR BRIDGE OVER SHARAVATHI BACKWATWER",
+      firm: "RKC Infratech",
+      type: "LAUNCHING GIRDER FOR ERECTION OF GIRDER",
+      location: "Karnataka",
+      year: "2023",
+      details: "",
+      image: "/lovable-uploads/sharavathi_backwater_bridge.jpg", // Design
+      client: "AMRUTHA CONSTRUCTION PVT LTD"
+    },
+    {
+      title: "SHIMLA BYPASS PROJECT",
+      firm: "Imagineering Bridges",
+      type: "Design",
+      location: "Shimla, India",
+      year: "2023",
+      details: "PIER CAP SHUTETRING, LAUNCHING GIRDER FOR ERECTION OF GIRDER, CASTING YARD, SEGMENT MOULD, GROUND SUPPORT SYSTEM (UNDER SLUNG LAUNCHING GIRDER), FORM WORK TRAVELLER",
+      image: "/lovable-uploads/shimla_bypass_project.png", // Design/Fabrication
+      client: "GAWAR CONSTRUCTION LTD"
+    },
+    {
+      title: "MTHL- PUNE MISSING LINK",
+      firm: "Riyare Micro Construct",
+      type: "Design",
+      location: "Pune, Maharashtra",
+      year: "2023",
+      details: "PRE-TENSIONED GIRDER CASTING YARD, GIRDER SHUTTERING, PIER CAP CENTERING, ALL THE ENABLING STRUTCUTRE",
+      image: "/lovable-uploads/mthl.jpg", // Fabrication
+      client: "GAWAR CONSTRUCTION LTD"
+    },
+    {
+      title: "MUMBAI METRO",
+      firm: "Imagineering Bridges",
+      type: "Design",
+      location: "Mumbai, Maharashtra",
+      year: "2022",
+      details: "PRE-TENSIONED U GIRDER CASTING YARD & ITS FOUNDATIONS, PRE-TENSIONED GIRDER CASTING YARD, CROSS ARM LIFTER, LIFTING BEAMS, REBAR CAGE LIFTERS, STACKING BEAMS, REBAR JIG, TRANSPORTATION FRAMES, PIER CAP CENTERING, STRESSING PLATFORM, MOVABLE SHED, ALL THE ENABLING STRUTCUTRE",
+      image: "/lovable-uploads/mumbai_metro.jpg", // Design
+      client: "GAWAR CONSTRUCTION LTD"
+    },
+    {
+      title: "CABLE EXTRADOSED BRIDGE OVER NARMADA RIVER",
+      firm: "RKC Infratech",
+      type: "Design",
+      location: "Rajasthan",
+      year: "2022",
+      details: "CASTING YARD, SEGMENT MOULD, PIER TABLE CENTERING, STITCH CENTERING ARRANGEMENT, STRONG BACK, SEGMENT LIFTER",
+      image: "/lovable-uploads/ganga_river_bridge.jpg", // Construction/Fabrication
+      client: "JANDU CONSTRUCTION INDIA PVT LTD"
+    }
+  ];
+
   const capabilities = [
     {
       title: "State-of-the-Art Facility",
