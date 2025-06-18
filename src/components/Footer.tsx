@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold mb-4">RKC Infratech Group</h3>
+            <h3 className="text-2xl font-bold mb-4">Imagineering Bridges Group</h3>
             <p className="text-gray-300 mb-6">
               Engineering, Building, and Funding India's Future through innovative infrastructure solutions and strategic investments.
             </p>
@@ -112,7 +112,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail size={20} className="flex-shrink-0" />
-                <p>engg.rch@gmail.com</p>
+                <p>rkc@imagineeringbridges.com</p>
               </div>
               <div className="flex items-center space-x-3">
                 <Clock size={20} className="flex-shrink-0" />
@@ -129,7 +129,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left text-gray-300 mb-4 md:mb-0">
-              <p>&copy; 2024 RKC Infratech Group. All rights reserved.</p>
+              <p>&copy; 2024 Imagineering Bridges Group. All rights reserved.</p>
             </div>
             <div className="flex space-x-6 text-gray-300 text-sm">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
