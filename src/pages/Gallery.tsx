@@ -115,6 +115,36 @@ const Gallery = () => {
       category: "",
       description: "",
       image: "/lovable-uploads/vizag.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/award.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/award1.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/award2.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/award3.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/award4.jpg"
     }
   ];
 
