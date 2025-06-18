@@ -9,12 +9,12 @@ const PainPointsSection = () => {
       icon: "🖥"
     },
     {
-      problem: "Costly fabrication delays",
-      solution: "Imagineering bridges abrication precision",
+      problem: "Quality issue & cost impact due to fabrication delay",
+      solution: "Imagineering bridges fabrication precision",
       icon: "🏭"
     },
     {
-      problem: "Bridge construction risks",
+      problem: "Cost impact caused by delays in bridge construction",
       solution: "Riyare Micro construct Precast Experience",
       icon: "🌉"
     },
