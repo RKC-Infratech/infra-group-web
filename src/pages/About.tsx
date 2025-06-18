@@ -65,6 +65,18 @@ const About = () => {
       position: "Head - Fabrication",
       bio: "",
       image: "/lovable-uploads/amarjeet.jpg"
+    },
+    {
+      name: "Neeraj Kumar",
+      position: "Head - Fabrication",
+      bio: "",
+      image: "/lovable-uploads/amarjeet.jpg"
+    },
+    {
+      name: "Amarjeet Pandit",
+      position: "Head - Fabrication",
+      bio: "",
+      image: "/lovable-uploads/amarjeet.jpg"
     }
   ];
 
