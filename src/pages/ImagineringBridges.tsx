@@ -175,6 +175,8 @@ const ImagineringBridges = () => {
           </div>
         </div>
       </section>
+ {/* Map */}
+      <MapCard />
 
       {/* CTA Section */}
       <section className="py-16 bg-gray-900 text-white">
