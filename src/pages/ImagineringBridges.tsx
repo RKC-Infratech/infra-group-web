@@ -183,6 +183,46 @@ const ImagineringBridges = () => {
           </div>
         </div>
       </section>
+{/* Projects */}
+       <Card key={index} className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
+                  <div className="h-48 w-full overflow-hidden">
+                    <img 
+                      src={project.image}
+                      alt={project.title}
+                      className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
+                    />
+                  </div>
+                  <CardHeader>
+                    <CardTitle className="text-lg text-center">{project.title}</CardTitle>
+                    <div className="text-center">
+                      <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
+                        {project.firm}
+                      </span>
+                    </div>
+                  </CardHeader>
+                  <CardContent className="text-center">
+                    <p className="text-primary font-medium mb-2">{project.type}</p>
+                    <p className="text-gray-600 mb-2">{project.location}</p>
+                    <p className="text-sm text-gray-500 mb-3">{project.year}</p>
+                    <p className="text-gray-600 text-sm">{project.client}</p>
+                    {project.details && (
+                      <p className="text-gray-600 text-sm">
+                        {isExpanded || !shouldTruncate
+                          ? project.details
+                          : truncate(project.details, 80)}
+                        {shouldTruncate && (
+                          <Button
+                            variant="link"
+                            className="text-primary p-0 h-auto text-sm ml-2"
+                            onClick={() => handleReadMore(absoluteIndex)}
+                          >
+                            {isExpanded ? "Read less" : "Read more"}
+                          </Button>
+                        )}
+                      </p>
+                    )}
+                  </CardContent>
+                </Card>
 
       {/* Factory Tour Section */}
       <section className="py-16">
