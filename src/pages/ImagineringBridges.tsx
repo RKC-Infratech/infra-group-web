@@ -39,7 +39,7 @@ const ImagineringBridges = () => {
     <div className="rounded-lg overflow-hidden shadow-md mx-8">
       <iframe
         title="RKC Infratech Group Location Bhopal with Marker"
-        src="https://www.google.com/maps?q=23.143675,77.555810&z=18&output=embed"
+        src="https://www.google.com/maps?q=23.143123,77.555301&z=18&output=embed"
         width="100%"
         height="220"
         loading="lazy"
@@ -48,7 +48,7 @@ const ImagineringBridges = () => {
         className="w-full h-56 border-0 rounded-lg"
       />
       <div className="text-center text-gray-600 text-xs my-3">
-        85, RRR House, Capitol Hill (Alpine Jewel), Kolar Road, Bhopal, MP, India - 462042
+        Industrial Area Bagroda, E45, Bhopal, Madhya Pradesh 462045
       </div>
     </div>
   </div>
