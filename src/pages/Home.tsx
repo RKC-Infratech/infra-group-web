@@ -22,7 +22,7 @@ const Home = () => {
       projectImage: "https://i.pinimg.com/736x/bb/e7/0c/bbe70ccd44db21852d9a7de9da4c999b.jpg" // Engineering design
     },
     {
-      title: "IMAGINEERING BRIDGES",
+      title: "IMAGINEERING BRIDGES INDIA LLP",
       tagline: "Fabrication that meets design specs to the millimeter",
       keyService: "Segment mold supply",
       icon: "🏭",
@@ -31,7 +31,7 @@ const Home = () => {
       projectImage: "https://www.weldwins.com/static/f86858ecc505a2a99754792481b13e0c/8dbcc/cover.jpg " // Fabrication/industrial
     },
     {
-      title: "RIYARE CONSTRUCT",
+      title: "RIYARE MICRO CONSTRUCT LLP",
       tagline: "Building bridges that outlive their blueprints",
       keyService: "U-girder installation",
       icon: "🌉",
@@ -40,7 +40,7 @@ const Home = () => {
       projectImage: "https://media.springernature.com/lw685/springer-static/image/art%3A10.1007%2Fs40799-022-00616-y/MediaObjects/40799_2022_616_Fig6_HTML.png " // Bridge
     },
     {
-      title: "CHOUBEY OFFICE",
+      title: "R K CHOUBEY FAMILY OFFICE",
       tagline: "Fueling India's futuristics idea for next generation",
       keyService: "Angel funding",
       icon: "💰",
