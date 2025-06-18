@@ -31,9 +31,9 @@ const Testimonials = () => {
       rating: 5,
     },
     {
-      name: "Manab Datta",
-      position: "President",
-      company: "GPT Infraprojects Limited",
+      name: "Anirudh Wadhwani",
+      position: "Director",
+      company: "NWR Service Pvt Ltd",
       content:
         "R.K. Choubey Family Office's strategic funding approach has been instrumental in scaling our infrastructure projects across multiple states.",
       rating: 5,
