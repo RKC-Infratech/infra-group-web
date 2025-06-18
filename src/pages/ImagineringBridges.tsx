@@ -162,55 +162,58 @@ const ImagineringBridges = () => {
         </div>
       </section>
 {/* Projects */}
-        <section className="py-16 bg-gray-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
-            Project Showcase
-          </h2>
-          <p className="text-xl text-gray-600">
-            From concept to completion - see our expertise in action
-          </p>
-        </div>
+       {/* Projects */} 
+<section className="py-16 bg-gray-50">
+  <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div className="text-center mb-12">
+      <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+        Project Showcase
+      </h2>
+      <p className="text-xl text-gray-600">
+        From concept to completion - see our expertise in action
+      </p>
+    </div>
 
-        {/* Masonry Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-          {
-              <div className="h-48 overflow-hidden">
-                <img 
-                  src={project.image} 
-                  alt={project.title}
-                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
-                />
-              </div>
-              <div className="p-6">
-                <div className="flex items-center justify-between mb-2">
-                  <span className={`text-xs font-medium px-2 py-1 rounded-full ${
-                    project.type === 'design' ? 'bg-blue-100 text-blue-800' :
-                    project.type === 'fabrication' ? 'bg-orange-100 text-orange-800' :
-                    'bg-green-100 text-green-800'
-                  }`}>
-                    {project.category}
-                  </span>
-                </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-2">
-                  {project.title}
-                </h3>
-                <button className="text-primary font-medium hover:text-primary/80 transition-colors">
-                  View Details →
-                </button>
-              </div>
+    {/* Project Cards */}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      {projects.map((project, index) => (
+        <div key={index} className="bg-white rounded-lg overflow-hidden shadow-md hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
+          <div className="h-48 overflow-hidden">
+            <img 
+              src={project.image} 
+              alt={project.title}
+              className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+            />
+          </div>
+          <div className="p-6">
+            <div className="flex items-center justify-between mb-2">
+              <span className={`text-xs font-medium px-2 py-1 rounded-full ${
+                project.type === 'design' ? 'bg-blue-100 text-blue-800' :
+                project.type === 'fabrication' ? 'bg-orange-100 text-orange-800' :
+                'bg-green-100 text-green-800'
+              }`}>
+                {project.category}
+              </span>
             </div>
-          ))}
+            <h3 className="text-lg font-semibold text-gray-900 mb-2">
+              {project.title}
+            </h3>
+            <button className="text-primary font-medium hover:text-primary/80 transition-colors">
+              View Details →
+            </button>
+          </div>
         </div>
-        {/* Explore More Button */}
-        <div className="flex justify-center mt-10">
-          <Button asChild size="lg" className="bg-primary text-white hover:bg-primary/90 transition">
-            <Link to="/projects">Explore more Projects</Link>
-          </Button>
-        </div>
-      </div>
-    </section>
+      ))}
+    </div>
+
+    {/* Explore More Button */}
+    <div className="flex justify-center mt-10">
+      <Button asChild size="lg" className="bg-primary text-white hover:bg-primary/90 transition">
+        <Link to="/projects">Explore more Projects</Link>
+      </Button>
+    </div>
+  </div>
+</section>
 
       {/* Factory Tour Section */}
       <section className="py-16">
