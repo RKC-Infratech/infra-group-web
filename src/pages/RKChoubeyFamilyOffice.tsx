@@ -110,6 +110,7 @@ const RKChoubeyFamilyOffice = () => {
                 <div className="text-center">
                   <div className="text-6xl mb-6">{initiative.icon}</div>
                   <h3 className="text-xl font-semibold text-gray-900 mb-4">{initiative.title}</h3>
+                
                   <p className="text-gray-600">{initiative.description}</p>
                 </div>
               </div>
@@ -164,6 +165,7 @@ const RKChoubeyFamilyOffice = () => {
                   <h3 className="text-xl font-semibold mb-2">{investment.company}</h3>
                   <p className="text-primary font-medium mb-2">{investment.sector}</p>
                   <p className="text-gray-600">{investment.description}</p>
+                  <a href="{investment.website}" target="_blank">Visit Website</a>
                   <p className="text-gray-600">{investment.website}</p>
                 </div>
               </div>
