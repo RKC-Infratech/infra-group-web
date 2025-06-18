@@ -33,19 +33,28 @@ const RKChoubeyFamilyOffice = () => {
 
   const investments = [
     {
-      company: "TechBridge Solutions",
-      sector: "Construction Tech",
-      description: "AI-powered project management for infrastructure"
+      company: "Legum Talk",
+      sector: "Legal Community",
+      description: "India's premier professional network for legal professionals. Connect, collaborate, and stay informed with the legal community.",
+      website: "https://www.legumtalk.com"
     },
     {
-      company: "GreenInfra Dynamics",
-      sector: "Sustainable Infrastructure",
-      description: "Eco-friendly construction materials and methods"
+      company: "National Will Register",
+      sector: "Will Storage Facility",
+      description: "The National Will Registry is a secure digital platform for storing, managing, and retrieving will documents.",
+      website: "https://www.legumtalk.com"
     },
     {
-      company: "Smart Foundation Systems",
+      company: "Registry On Door",
+      sector: "Legal Service",
+      description: "Professional legal services delivered right to your doorstep. Connect with verified advocates for will drafting, document registration, notarisation, and legal consultation - all from the comfort of your home.",
+      website: "https://www.legumtalk.com"
+    },
+    {
+      company: "Imaginefab India Pvt Ltd.",
       sector: "Engineering Innovation",
-      description: "Advanced foundation technology for bridges"
+      description: "The company is involved in the manufacture of fabricated metal products, excluding machinery and equipment",
+      website: "#"
     }
   ];
 
@@ -155,6 +164,7 @@ const RKChoubeyFamilyOffice = () => {
                   <h3 className="text-xl font-semibold mb-2">{investment.company}</h3>
                   <p className="text-primary font-medium mb-2">{investment.sector}</p>
                   <p className="text-gray-600">{investment.description}</p>
+                  <p className="text-gray-600">{investment.website}</p>
                 </div>
               </div>
             ))}
