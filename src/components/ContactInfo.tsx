@@ -11,8 +11,8 @@ const info = [
   {
     icon: <Mail className="text-primary" />,
     label: "Email",
-    content: "engg.rch@gmail.com",
-    link: "mailto:engg.rch@gmail.com"
+    content: "rkc@imagineeringbridges.com",
+    link: "mailto:rkc@imagineeringbridges.com"
   },
   {
     icon: <Phone className="text-primary" />,
