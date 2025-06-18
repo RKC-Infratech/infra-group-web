@@ -18,7 +18,7 @@ const statsArr = [
     color: "text-yellow-400"
   },
   {
-    value: "₹200Cr+",
+    value: "₹50Cr+",
     label: "Total Investment",
     color: "text-green-400"
   },
