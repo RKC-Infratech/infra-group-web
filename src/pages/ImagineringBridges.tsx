@@ -39,7 +39,7 @@ const ImagineringBridges = () => {
     <div className="rounded-lg overflow-hidden shadow-md mx-8">
       <iframe
         title="RKC Infratech Group Location Bhopal with Marker"
-        src="https://www.google.com/maps?q=23.143123,77.555301&z=18&output=embed"
+        src="https://www.google.com/maps?q=23.1430676,77.5553074&z=18&output=embed"
         width="100%"
         height="220"
         loading="lazy"
