@@ -15,37 +15,44 @@ const ImagineringBridges = () => {
     "Pier Caps"
   ];
 
+ const ProjectShowcase = () => {
+  // Remove filter state/logic
   const projects = [
     {
       title: "MAJOR BRIDGE OVER KRISHNA RIVER",
-      firm: "Riyare Micro Construct",
-      type: "GROUND SUPPORT SYSTEM (UNDER SLUNG LAUNCHING GIRDER)",
-      location: "Vijaywada",
-      year: "2024",
-      details: "",
-      image: "/lovable-uploads/krishna_river_bridge1.jpg", // Construction
-      client: "NAVYUGA ENGINERING COMPANY LTD"
-    },
-   
-    {
-      title: "MTHL- PUNE MISSING LINK",
-      firm: "Riyare Micro Construct",
-      type: "Design",
-      location: "Pune, Maharashtra",
-      year: "2023",
-      details: "PRE-TENSIONED GIRDER CASTING YARD, GIRDER SHUTTERING, PIER CAP CENTERING, ALL THE ENABLING STRUTCUTRE",
-      image: "/lovable-uploads/mthl.jpg", // Fabrication
-      client: "GAWAR CONSTRUCTION LTD"
+      category: "Riyare Micro Construct",
+      image: "/lovable-uploads/krishna_river_bridge1.jpg",
+      type: "GROUND SUPPORT SYSTEM (UNDER SLUNG LAUNCHING GIRDER)"
     },
     {
       title: "MUMBAI METRO",
-      firm: "Imagineering Bridges",
-      type: "Design",
-      location: "Mumbai, Maharashtra",
-      year: "2022",
-      details: "PRE-TENSIONED U GIRDER CASTING YARD & ITS FOUNDATIONS, PRE-TENSIONED GIRDER CASTING YARD, CROSS ARM LIFTER, LIFTING BEAMS, REBAR CAGE LIFTERS, STACKING BEAMS, REBAR JIG, TRANSPORTATION FRAMES, PIER CAP CENTERING, STRESSING PLATFORM, MOVABLE SHED, ALL THE ENABLING STRUTCUTRE",
-      image: "/lovable-uploads/mumbai_metro.jpg", // Design
-      client: "GAWAR CONSTRUCTION LTD"
+      category: "Imagineering Bridges",
+      image: "/lovable-uploads/mumbai_metro.jpg",
+      type: "Design"
+    },
+    {
+      title: "SHIMLA BYPASS PROJECT",
+      category: "Imagineering Bridges",
+      image: "/lovable-uploads/shimla_bypass_project.png",
+      type: "Design"
+    },
+    {
+      title: "Launching Girder Technical Drawing",
+      category: "Design (RKC)",
+      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      type: "design"
+    },
+    {
+      title: "Precast Segment Production",
+      category: "Fabrication (Imagineering)",
+      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      type: "fabrication"
+    },
+    {
+      title: "Bridge Installation Process",
+      category: "Construction (Riyare)",
+      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
+      type: "construction"
     }
   ];
 
@@ -155,45 +162,55 @@ const ImagineringBridges = () => {
         </div>
       </section>
 {/* Projects */}
-       <Card key={index} className="hover:shadow-lg transition-all duration-300 hover:-translate-y-1 overflow-hidden">
-                  <div className="h-48 w-full overflow-hidden">
-                    <img 
-                      src={project.image}
-                      alt={project.title}
-                      className="w-full h-full object-cover transition-transform duration-300 hover:scale-105"
-                    />
-                  </div>
-                  <CardHeader>
-                    <CardTitle className="text-lg text-center">{project.title}</CardTitle>
-                    <div className="text-center">
-                      <span className="inline-block bg-primary/10 text-primary px-3 py-1 rounded-full text-sm font-medium">
-                        {project.firm}
-                      </span>
-                    </div>
-                  </CardHeader>
-                  <CardContent className="text-center">
-                    <p className="text-primary font-medium mb-2">{project.type}</p>
-                    <p className="text-gray-600 mb-2">{project.location}</p>
-                    <p className="text-sm text-gray-500 mb-3">{project.year}</p>
-                    <p className="text-gray-600 text-sm">{project.client}</p>
-                    {project.details && (
-                      <p className="text-gray-600 text-sm">
-                        {isExpanded || !shouldTruncate
-                          ? project.details
-                          : truncate(project.details, 80)}
-                        {shouldTruncate && (
-                          <Button
-                            variant="link"
-                            className="text-primary p-0 h-auto text-sm ml-2"
-                            onClick={() => handleReadMore(absoluteIndex)}
-                          >
-                            {isExpanded ? "Read less" : "Read more"}
-                          </Button>
-                        )}
-                      </p>
-                    )}
-                  </CardContent>
-                </Card>
+        <section className="py-16 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-4">
+            Project Showcase
+          </h2>
+          <p className="text-xl text-gray-600">
+            From concept to completion - see our expertise in action
+          </p>
+        </div>
+
+        {/* Masonry Grid */}
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          {
+              <div className="h-48 overflow-hidden">
+                <img 
+                  src={project.image} 
+                  alt={project.title}
+                  className="w-full h-full object-cover hover:scale-105 transition-transform duration-300"
+                />
+              </div>
+              <div className="p-6">
+                <div className="flex items-center justify-between mb-2">
+                  <span className={`text-xs font-medium px-2 py-1 rounded-full ${
+                    project.type === 'design' ? 'bg-blue-100 text-blue-800' :
+                    project.type === 'fabrication' ? 'bg-orange-100 text-orange-800' :
+                    'bg-green-100 text-green-800'
+                  }`}>
+                    {project.category}
+                  </span>
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900 mb-2">
+                  {project.title}
+                </h3>
+                <button className="text-primary font-medium hover:text-primary/80 transition-colors">
+                  View Details →
+                </button>
+              </div>
+            </div>
+          ))}
+        </div>
+        {/* Explore More Button */}
+        <div className="flex justify-center mt-10">
+          <Button asChild size="lg" className="bg-primary text-white hover:bg-primary/90 transition">
+            <Link to="/projects">Explore more Projects</Link>
+          </Button>
+        </div>
+      </div>
+    </section>
 
       {/* Factory Tour Section */}
       <section className="py-16">
