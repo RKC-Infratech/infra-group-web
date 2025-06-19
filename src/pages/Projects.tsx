@@ -259,7 +259,7 @@ const Projects = () => {
   location: "Ludhiana, Punjab",
   year: "2023", // Update if needed
   details: "FORMWORK TRAVELER",
-  image: "/lovable-uploads/ludhiana_bypass_bridge.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/BALANCE CANTILEVER BRIDGE3.png", // Replace with actual image path if available
   client: "CEIGALL INDIA LIMITED"
 },
 {
@@ -269,7 +269,7 @@ const Projects = () => {
   location: "Kerala",
   year: "2023", // Update if needed
   details: "FORMWORK TRAVELER",
-  image: "/lovable-uploads/kodungallur_edapally_nh66.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/BALANCE CANTILEVER BRIDGE3.png", // Replace with actual image path if available
   client: "ORIENTAL STRUCTURAL ENGINEERS PVT LTD"
 }
   ];
