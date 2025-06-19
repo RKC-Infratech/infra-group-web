@@ -73,10 +73,10 @@ const About = () => {
       image: "/lovable-uploads/neeraj.png"
     },
     {
-      name: "Amarjeet Pandit",
+      name: "Rupesh Kumar",
       position: "Head - Fabrication",
       bio: "",
-      image: "/lovable-uploads/amarjeet.jpg"
+      image: "/lovable-uploads/rupesh.jpg"
     }
   ];
 
