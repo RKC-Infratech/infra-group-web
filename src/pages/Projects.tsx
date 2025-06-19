@@ -109,7 +109,7 @@ const Projects = () => {
   location: "Maharashtra", // Based on location; update if necessary
   year: "2023", // Change if required
   details: "CASTING YARD, PRECAST SEGMENT MOULD - SHORT LINE, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, TEMPORARY ACCESS BRIDGE (TAB), SEGMENT LIFTER",
-  image: "/lovable-uploads/kundalika_creek_bridge.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/REDDI COASTALHIGHWAY.png", // Replace with actual image path if available
   client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
 },
   {
@@ -149,7 +149,7 @@ const Projects = () => {
   location: "Prayagraj, Uttar Pradesh",
   year: "2023", // Update if different
   details: "LOWER PYLON SHUTTER, UPPER PYLON SHUTTER, PIER TABLE SHUTTER, PONTOONS, LOAD OUT JETTY, STRONG BACK",
-  image: "/lovable-uploads/CABLE EXTRADOSED BRIDGE OVER GANGA RIVER AT PRAYAGRAJ.png", // Replace with actual image path if available
+  image: "/lovable-uploads/CABLE EXTRA-DOSED BRIDGE OVER SHARAVATHI BACK WATER.jpg", // Replace with actual image path if available
   client: "GPT INFRAPROJECTS LIMITED"
 },
     {
@@ -159,7 +159,7 @@ const Projects = () => {
   location: "Andhra Pradesh",
   year: "2023", // Update if different
   details: "LAUNCHING TRUSS FOR ERECTION OF PRECAST UHPC GIRDER",
-  image: "/lovable-uploads/port_connectivity_ap.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/ANDHARA PRADESH ON EPC MODE.jpg", // Replace with actual image path if available
   client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
 },
 {
