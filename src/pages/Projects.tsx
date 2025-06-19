@@ -71,7 +71,18 @@ const Projects = () => {
       details: "CASTING YARD, SEGMENT MOULD, PIER TABLE CENTERING, STITCH CENTERING ARRANGEMENT, STRONG BACK, SEGMENT LIFTER",
       image: "/lovable-uploads/ganga_river_bridge.jpg", // Construction/Fabrication
       client: "JANDU CONSTRUCTION INDIA PVT LTD"
-    }
+    },
+    {
+  title: "NAGPUR METRO",
+  firm: "RKC Infratech",
+  type: "Design Review",
+  location: "Nagpur",
+  year: "2022", // Update the year if different
+  details: "CASTING YARD, PRECAST SEGMENT MOULD, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, LAUNCHING GIRDER",
+  image: "/lovable-uploads/nagpur_metro_project.jpg", // Replace with actual image path if available
+  client: "KALPATRU PROJECTS INTERNATIONAL LIMITED"
+}
+
   ];
 
   const filteredProjects = activeFilter === "All" 
