@@ -179,9 +179,7 @@ const ImagineringBridges = () => {
                   <h3 className="text-lg font-semibold text-gray-900 mb-2">
                     {project.title}
                   </h3>
-                  <button className="text-primary font-medium hover:text-primary/80 transition-colors">
-                    View Details →
-                  </button>
+                  <p>{project.client}</p>
                 </div>
               </div>
             ))}
