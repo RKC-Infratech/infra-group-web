@@ -16,7 +16,7 @@ const Hero = ({ title, subtitle, backgroundImages, children, className = "" }: H
     "/lovable-uploads/award5.jpg",
     "/lovable-uploads/cover2.jpg",
     "/lovable-uploads/cover.jpg",
-    "/lovable-uploads/award.jpg",
+    "/lovable-uploads/award2.jpg",
     "/lovable-uploads/award1.jpg"
   ];
   
