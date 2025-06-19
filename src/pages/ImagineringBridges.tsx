@@ -32,24 +32,6 @@ const ImagineringBridges = () => {
       category: "Imagineering Bridges",
       image: "/lovable-uploads/shimla_bypass_project.png",
       type: "design"
-    },
-    {
-      title: "Launching Girder Technical Drawing",
-      category: "Design (RKC)",
-      image: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      type: "design"
-    },
-    {
-      title: "Precast Segment Production",
-      category: "Fabrication (Imagineering)",
-      image: "https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      type: "fabrication"
-    },
-    {
-      title: "Bridge Installation Process",
-      category: "Construction (Riyare)",
-      image: "https://images.unsplash.com/photo-1433086966358-54859d0ed716?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80",
-      type: "construction"
     }
   ];
 
