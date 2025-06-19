@@ -81,7 +81,40 @@ const Projects = () => {
   details: "CASTING YARD, PRECAST SEGMENT MOULD, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, LAUNCHING GIRDER",
   image: "/lovable-uploads/nagpur_metro_project.jpg", // Replace with actual image path if available
   client: "KALPATRU PROJECTS INTERNATIONAL LIMITED"
+},
+    {
+  title: "REVIEW AND PROOF CHECKING OF LAUNCHING GIRDER – NAGPUR METRO",
+  firm: "RKC Infratech",
+  type: "Design Review",
+  location: "Nagpur",
+  year: "2022", // Update if needed
+  details: "LAUNCHING GIRDER",
+  image: "/lovable-uploads/nagpur_metro_dpjain.jpg", // Replace with actual image path if available
+  client: "D.P. JAIN & INFRASTRUCTURE PVT. LTD."
+},
+    {
+  title: "DESIGN OF ALL THE ENABLING STRUCTURE – MAJOR BRIDGE ACROSS JAIGAD CREEK BETWEEN TASWAL AND JAIGAD ON REWAS REDDI COASTAL HIGHWAYS",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Maharashtra", // Based on Jaigad location; update if needed
+  year: "2023", // Change if needed
+  details: "CASTING YARD, PRECAST SEGMENT MOULD - SHORT LINE, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, TEMPORARY ACCESS BRIDGE (TAB), SEGMENT LIFTER",
+  image: "/lovable-uploads/jaigad_creek_bridge.jpg", // Replace with actual image path if available
+  client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
+},
+    {
+  title: "DESIGN OF ALL THE ENABLING STRUCTURE – MAJOR BRIDGE ACROSS KUNDALIKA CREEK BETWEEN REVDANDA TO SALAV ON REVAS REDDI COASTAL HIGHWAY",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Maharashtra", // Based on location; update if necessary
+  year: "2023", // Change if required
+  details: "CASTING YARD, PRECAST SEGMENT MOULD - SHORT LINE, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, TEMPORARY ACCESS BRIDGE (TAB), SEGMENT LIFTER",
+  image: "/lovable-uploads/kundalika_creek_bridge.jpg", // Replace with actual image path if available
+  client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
 }
+
+
+
 
   ];
 
