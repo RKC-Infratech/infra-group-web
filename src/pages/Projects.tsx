@@ -79,7 +79,7 @@ const Projects = () => {
   location: "Nagpur",
   year: "2022", // Update the year if different
   details: "CASTING YARD, PRECAST SEGMENT MOULD, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, LAUNCHING GIRDER",
-  image: "/lovable-uploads/nagpur_metro_project.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/Nagpur project3.jpeg", // Replace with actual image path if available
   client: "KALPATRU PROJECTS INTERNATIONAL LIMITED"
 },
     {
@@ -89,7 +89,7 @@ const Projects = () => {
   location: "Nagpur",
   year: "2022", // Update if needed
   details: "REVIEW AND PROOF CHECKING OF LAUNCHING GIRDER",
-  image: "/lovable-uploads/nagpur_metro_dpjain.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/Nagpur project.jpeg", // Replace with actual image path if available
   client: "D.P. JAIN & INFRASTRUCTURE PVT. LTD."
 },
     {
