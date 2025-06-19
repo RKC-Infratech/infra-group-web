@@ -70,7 +70,7 @@ const About = () => {
       name: "Neeraj Kumar",
       position: "Jr. Engineer",
       bio: "",
-      image: "/lovable-uploads/neeraj.png"
+      image: "/lovable-uploads/Neeraj1.jpg"
     },
     {
       name: "Rupesh Kumar",
