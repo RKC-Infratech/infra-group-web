@@ -111,11 +111,167 @@ const Projects = () => {
   details: "CASTING YARD, PRECAST SEGMENT MOULD - SHORT LINE, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, TEMPORARY ACCESS BRIDGE (TAB), SEGMENT LIFTER",
   image: "/lovable-uploads/kundalika_creek_bridge.jpg", // Replace with actual image path if available
   client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
+},
+  {
+  title: "DESIGN OF ALL THE ENABLING STRUCTURE – GAIMUKH TO PAYEGAON LINK BRIDGE PROJECT",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Maharashtra", // Based on assumed location; update if needed
+  year: "2023", // Change if needed
+  details: "CASTING YARD, PRECAST SEGMENT MOULD - SHORT LINE, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, TEMPORARY ACCESS BRIDGE (TAB), SEGMENT LIFTER",
+  image: "/lovable-uploads/gaimukh_payegaon_link_bridge.jpg", // Replace with actual image path if available
+  client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
+},
+  {
+  title: "DESIGN OF ALL THE ENABLING STRUCTURE – PUNE E2 PROJECT",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Pune, Maharashtra",
+  year: "2023", // Update if needed
+  details: "CASTING YARD, PRECAST SEGMENT MOULD, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, LAUNCHING GIRDER",
+  image: "/lovable-uploads/pune_e2_project.jpg", // Replace with actual image path if available
+  client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
+},
+  {
+  title: "DESIGNED – PIER CAP CENTERING (HANGING SYSTEM) – JOSHIMATH TO SURAITHOTA NHSL ROAD PROJECT",
+  firm: "Riyare Micro Construct",
+  type: "Design",
+  location: "Uttarakhand", // Based on Joshimath location; update if needed
+  year: "2023", // Update if different
+  details: "PIER CAP CENTERING (HANGING SYSTEM)",
+  image: "/lovable-uploads/joshimath_suraithota_nhsl.jpg", // Replace with actual image path if available
+  client: "H.M.B.S TEXTILES PVT. LTD."
+},
+  {
+  title: "DESIGNED – CABLE EXTRADOSED BRIDGE OVER GANGA RIVER AT PRAYAGRAJ",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Prayagraj, Uttar Pradesh",
+  year: "2023", // Update if different
+  details: "LOWER PYLON SHUTTER, UPPER PYLON SHUTTER, PIER TABLE SHUTTER, PONTOONS, LOAD OUT JETTY, STRONG BACK",
+  image: "/lovable-uploads/ganga_river_prayagraj.jpg", // Replace with actual image path if available
+  client: "GPT INFRAPROJECTS LIMITED"
+},
+    {
+  title: "DESIGNED – LAUNCHING TRUSS FOR ERECTION OF PRECAST UHPC GIRDER – PORT CONNECTIVITY ROAD PROJECT (CONVERT JUNCTION TO SHEELANAGAR JUNCTION), ANDHRA PRADESH",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Andhra Pradesh",
+  year: "2023", // Update if different
+  details: "LAUNCHING TRUSS FOR ERECTION OF PRECAST UHPC GIRDER",
+  image: "/lovable-uploads/port_connectivity_ap.jpg", // Replace with actual image path if available
+  client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
+},
+{
+  title: "DESIGNED – PRE-TENSIONING YARD FOR PI GIRDER & DESIGN AND MODIFICATION DRAWING OF EXISTING LAUNCHER – BHOPAL METRO",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Bhopal, Madhya Pradesh",
+  year: "2023", // Update if different
+  details: "PRE-TENSIONING YARD FOR PI GIRDER, DESIGN AND MODIFICATION DRAWING OF EXISTING LAUNCHER",
+  image: "/lovable-uploads/bhopal_metro.jpg", // Replace with actual image path if available
+  client: "URC CONSTRUCTION PRIVATE LIMITED"
+},
+{
+  title: "DESIGNED – PILE CAP SHUTTERING ARRANGEMENT WITH SACRIFICIAL SLAB AT BOTTOM – BANDRA – VERSOVA SEA LINK",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Mumbai, Maharashtra",
+  year: "2023", // Update if needed
+  details: "PILE CAP SHUTTERING ARRANGEMENT WITH SACRIFICIAL SLAB AT BOTTOM",
+  image: "/lovable-uploads/bandra_versova_sea_link.jpg", // Replace with actual image path if available
+  client: "APCO INFRATECH PRIVATE LIMITED"
+},
+{
+  title: "DESIGNED – FORMWORK TRAVELER – PMT BRIDGE CHANDRA BR-II OVER CHANDRA UNDER ROHTANG TUNNEL PROJECT, HIMACHAL PRADESH",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Himachal Pradesh",
+  year: "2023", // Update if needed
+  details: "FORMWORK TRAVELER",
+  image: "/lovable-uploads/rohtang_chandra_bridge.jpg", // Replace with actual image path if available
+  client: "AJAY KUMAR SHARMA"
+},
+{
+  title: "DESIGNED – PIER, PIER CAP SHUTTER, CASTING YARD, SEGMENT MOULD, GROUND SUPPORT SYSTEM (LG), LAUNCHING GIRDER, PARAPET LAUNCHER, MODIFICATION & DESIGN OF LG – SURAT METRO PROJECT",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Surat, Gujarat",
+  year: "2023", // Update if different
+  details: "PIER, PIER CAP SHUTTER, CASTING YARD, SEGMENT MOULD, GROUND SUPPORT SYSTEM (LG), LAUNCHING GIRDER, PARAPET LAUNCHER, MODIFICATION & DESIGN OF LAUNCHING GIRDER USED BY CLIENT AT HIGHWAY PROJECT",
+  image: "/lovable-uploads/surat_metro.jpg", // Replace with actual image path if available
+  client: "DILIP BUILDCON LIMITED"
+},
+{
+  title: "DESIGNED – SACRIFICIAL SLAB FOR PILE CAP SHUTTERING, PIER, PIER CAP, PIER TABLE SHUTTER, CASTING YARD, SEGMENT MOULD, LOADOUT JETTY – CABLE EXTRA-DOSED BRIDGE OVER SHARAVATHI BACK WATER, SAGAR, KARNATAKA",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Sagar, Karnataka",
+  year: "2023", // Update if needed
+  details: "SACRIFICIAL SLAB FOR PILE CAP SHUTTERING, PIER, PIER CAP, PIER TABLE SHUTTER, CASTING YARD, SEGMENT MOULD, LOADOUT JETTY",
+  image: "/lovable-uploads/sharavathi_bridge.jpg", // Replace with actual image path if available
+  client: "DILIP BUILDCON LIMITED"
+},
+{
+  title: "DESIGNED – SLAB CENTERING, PIER SHUTTERING, PIER CAP SHUTTERING, GIRDER SHUTTER, WATER TANK SHUTTER – WATER SUPPLY PROJECTS AT BANGALORE, MYSORE, KATGHORA, BHADBHUT DAM AND OTHER LOCATIONS",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Multiple Locations – Karnataka, Chhattisgarh, Gujarat", // Based on mentioned cities; adjust if needed
+  year: "2023", // Update if different
+  details: "SLAB CENTERING, PIER SHUTTERING, PIER CAP SHUTTERING, GIRDER SHUTTER, WATER TANK SHUTTER",
+  image: "/lovable-uploads/water_supply_projects.jpg", // Replace with actual image path if available
+  client: "DILIP BUILDCON LIMITED"
+},
+{
+  title: "DESIGNED – WELL, PIER, PIER CAP, PIER TABLE SHUTTER, CASTING YARD, SEGMENT MOULD (SHORT LINE), LAUNCHING GIRDER, LOAD OUT JETTY, PIER & PIER CAP CENTERING, LOWER AND UPPER PYLON SHUTTERING – CABLE EXTRA-DOSED BRIDGE OVER GANGA RIVER, SAHIBGANJ",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Sahibganj, Jharkhand",
+  year: "2023", // Update if needed
+  details: "WELL, PIER, PIER CAP, PIER TABLE SHUTTER, CASTING YARD, SEGMENT MOULD (SHORT LINE), LAUNCHING GIRDER, LOAD OUT JETTY, PIER & PIER CAP CENTERING, LOWER AND UPPER PYLON SHUTTERING",
+  image: "/lovable-uploads/sahibganj_ganga_bridge.jpg", // Replace with actual image path if available
+  client: "DILIP BUILDCON LIMITED"
+},
+{
+  title: "DESIGNED – PIER, PIER CAP SHUTTER, CASTING YARD, SEGMENT MOULD, LAUNCHING GIRDER, PARAPET LAUNCHER – BHOPAL METRO PROJECT",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Bhopal, Madhya Pradesh",
+  year: "2023", // Update if needed
+  details: "PIER, PIER CAP SHUTTER, CASTING YARD, SEGMENT MOULD, LAUNCHING GIRDER, PARAPET LAUNCHER",
+  image: "/lovable-uploads/bhopal_metro_dilip.jpg", // Replace with actual image path if available
+  client: "DILIP BUILDCON LIMITED"
+},
+{
+  title: "DESIGNED – PIER, PIER CAP SHUTTER, CASTING YARD, SEGMENT MOULD, LAUNCHING GIRDER, PARAPET LAUNCHER, MODIFICATION & DESIGN OF LG USED BY CLIENT AT HIGHWAY PROJECT – INDORE METRO PROJECT",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Indore, Madhya Pradesh",
+  year: "2023", // Update if different
+  details: "PIER, PIER CAP SHUTTER, CASTING YARD, SEGMENT MOULD, LAUNCHING GIRDER, PARAPET LAUNCHER, MODIFICATION & DESIGN OF LAUNCHING GIRDER USED BY CLIENT AT HIGHWAY PROJECT",
+  image: "/lovable-uploads/indore_metro.jpg", // Replace with actual image path if available
+  client: "DILIP BUILDCON LIMITED"
+},
+{
+  title: "DESIGNED – FORMWORK TRAVELER – BALANCE CANTILEVER BRIDGE, LUDHIA RUPNAGAR (LUDHIANA BYPASS)",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Ludhiana, Punjab",
+  year: "2023", // Update if needed
+  details: "FORMWORK TRAVELER",
+  image: "/lovable-uploads/ludhiana_bypass_bridge.jpg", // Replace with actual image path if available
+  client: "CEIGALL INDIA LIMITED"
+},
+{
+  title: "DESIGNED – FORMWORK TRAVELER – BALANCE CANTILEVER BRIDGE, KODUNGALLUR TO EDAPALLY SECTION OF NH-66, KERALA",
+  firm: "RKC Infratech",
+  type: "Design",
+  location: "Kerala",
+  year: "2023", // Update if needed
+  details: "FORMWORK TRAVELER",
+  image: "/lovable-uploads/kodungallur_edapally_nh66.jpg", // Replace with actual image path if available
+  client: "ORIENTAL STRUCTURAL ENGINEERS PVT LTD"
 }
-
-
-
-
   ];
 
   const filteredProjects = activeFilter === "All" 
