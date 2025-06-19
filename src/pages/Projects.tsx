@@ -99,7 +99,7 @@ const Projects = () => {
   location: "Maharashtra", // Based on Jaigad location; update if needed
   year: "2023", // Change if needed
   details: "CASTING YARD, PRECAST SEGMENT MOULD - SHORT LINE, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, TEMPORARY ACCESS BRIDGE (TAB), SEGMENT LIFTER",
-  image: "/lovable-uploads/jaigad_creek_bridge.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/– MAJOR BRIDGE OVER KRISHNA RIVER1.jpg", // Replace with actual image path if available
   client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
 },
     {
@@ -119,7 +119,7 @@ const Projects = () => {
   location: "Maharashtra", // Based on assumed location; update if needed
   year: "2023", // Change if needed
   details: "CASTING YARD, PRECAST SEGMENT MOULD - SHORT LINE, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, TEMPORARY ACCESS BRIDGE (TAB), SEGMENT LIFTER",
-  image: "/lovable-uploads/gaimukh_payegaon_link_bridge.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/GAIMUKH TO PAYEGAON LINK BRIDGE PROJECT.png", // Replace with actual image path if available
   client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
 },
   {
@@ -129,7 +129,7 @@ const Projects = () => {
   location: "Pune, Maharashtra",
   year: "2023", // Update if needed
   details: "CASTING YARD, PRECAST SEGMENT MOULD, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, LAUNCHING GIRDER",
-  image: "/lovable-uploads/pune_e2_project.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/PUNE E2 PROJECT.jpg", // Replace with actual image path if available
   client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
 },
   {
@@ -139,7 +139,7 @@ const Projects = () => {
   location: "Uttarakhand", // Based on Joshimath location; update if needed
   year: "2023", // Update if different
   details: "PIER CAP CENTERING (HANGING SYSTEM)",
-  image: "/lovable-uploads/joshimath_suraithota_nhsl.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/Joshimath-Suraithota.png", // Replace with actual image path if available
   client: "H.M.B.S TEXTILES PVT. LTD."
 },
   {
@@ -149,7 +149,7 @@ const Projects = () => {
   location: "Prayagraj, Uttar Pradesh",
   year: "2023", // Update if different
   details: "LOWER PYLON SHUTTER, UPPER PYLON SHUTTER, PIER TABLE SHUTTER, PONTOONS, LOAD OUT JETTY, STRONG BACK",
-  image: "/lovable-uploads/ganga_river_prayagraj.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/CABLE EXTRADOSED BRIDGE OVER GANGA RIVER AT PRAYAGRAJ.png", // Replace with actual image path if available
   client: "GPT INFRAPROJECTS LIMITED"
 },
     {
@@ -169,7 +169,7 @@ const Projects = () => {
   location: "Bhopal, Madhya Pradesh",
   year: "2023", // Update if different
   details: "PRE-TENSIONING YARD FOR PI GIRDER, DESIGN AND MODIFICATION DRAWING OF EXISTING LAUNCHER",
-  image: "/lovable-uploads/bhopal_metro.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/BHOPAL METRO PROJECT1.jpg", // Replace with actual image path if available
   client: "URC CONSTRUCTION PRIVATE LIMITED"
 },
 {
@@ -179,7 +179,7 @@ const Projects = () => {
   location: "Mumbai, Maharashtra",
   year: "2023", // Update if needed
   details: "PILE CAP SHUTTERING ARRANGEMENT WITH SACRIFICIAL SLAB AT BOTTOM",
-  image: "/lovable-uploads/bandra_versova_sea_link.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/BANDRA – VERSOVA SEA LINK.jpg", // Replace with actual image path if available
   client: "APCO INFRATECH PRIVATE LIMITED"
 },
 {
@@ -189,7 +189,7 @@ const Projects = () => {
   location: "Himachal Pradesh",
   year: "2023", // Update if needed
   details: "FORMWORK TRAVELER",
-  image: "/lovable-uploads/rohtang_chandra_bridge.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/ROHTANG TUNNEL IN HIMANCHAL PRADESH.png", // Replace with actual image path if available
   client: "AJAY KUMAR SHARMA"
 },
 {
@@ -199,7 +199,7 @@ const Projects = () => {
   location: "Surat, Gujarat",
   year: "2023", // Update if different
   details: "PIER, PIER CAP SHUTTER, CASTING YARD, SEGMENT MOULD, GROUND SUPPORT SYSTEM (LG), LAUNCHING GIRDER, PARAPET LAUNCHER, MODIFICATION & DESIGN OF LAUNCHING GIRDER USED BY CLIENT AT HIGHWAY PROJECT",
-  image: "/lovable-uploads/surat_metro.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/SURAT METRO PROJECT.jpg", // Replace with actual image path if available
   client: "DILIP BUILDCON LIMITED"
 },
 {
@@ -209,7 +209,7 @@ const Projects = () => {
   location: "Sagar, Karnataka",
   year: "2023", // Update if needed
   details: "SACRIFICIAL SLAB FOR PILE CAP SHUTTERING, PIER, PIER CAP, PIER TABLE SHUTTER, CASTING YARD, SEGMENT MOULD, LOADOUT JETTY",
-  image: "/lovable-uploads/sharavathi_bridge.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/CABLE EXTRADOSED BRIDGE 3.jpg", // Replace with actual image path if available
   client: "DILIP BUILDCON LIMITED"
 },
 {
@@ -219,7 +219,7 @@ const Projects = () => {
   location: "Multiple Locations – Karnataka, Chhattisgarh, Gujarat", // Based on mentioned cities; adjust if needed
   year: "2023", // Update if different
   details: "SLAB CENTERING, PIER SHUTTERING, PIER CAP SHUTTERING, GIRDER SHUTTER, WATER TANK SHUTTER",
-  image: "/lovable-uploads/water_supply_projects.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/– WATER SUPPLY PROJECT.jpg", // Replace with actual image path if available
   client: "DILIP BUILDCON LIMITED"
 },
 {
@@ -229,7 +229,7 @@ const Projects = () => {
   location: "Sahibganj, Jharkhand",
   year: "2023", // Update if needed
   details: "WELL, PIER, PIER CAP, PIER TABLE SHUTTER, CASTING YARD, SEGMENT MOULD (SHORT LINE), LAUNCHING GIRDER, LOAD OUT JETTY, PIER & PIER CAP CENTERING, LOWER AND UPPER PYLON SHUTTERING",
-  image: "/lovable-uploads/sahibganj_ganga_bridge.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/CABLE EXTRADOSED BRIDGE OVER GANGA RIVER AT PRAYAGRAJ.png", // Replace with actual image path if available
   client: "DILIP BUILDCON LIMITED"
 },
 {
@@ -239,7 +239,7 @@ const Projects = () => {
   location: "Bhopal, Madhya Pradesh",
   year: "2023", // Update if needed
   details: "PIER, PIER CAP SHUTTER, CASTING YARD, SEGMENT MOULD, LAUNCHING GIRDER, PARAPET LAUNCHER",
-  image: "/lovable-uploads/bhopal_metro_dilip.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/BHOPAL METRO.jpg", // Replace with actual image path if available
   client: "DILIP BUILDCON LIMITED"
 },
 {
@@ -249,7 +249,7 @@ const Projects = () => {
   location: "Indore, Madhya Pradesh",
   year: "2023", // Update if different
   details: "PIER, PIER CAP SHUTTER, CASTING YARD, SEGMENT MOULD, LAUNCHING GIRDER, PARAPET LAUNCHER, MODIFICATION & DESIGN OF LAUNCHING GIRDER USED BY CLIENT AT HIGHWAY PROJECT",
-  image: "/lovable-uploads/indore_metro.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/INDORE METRO PROJECT.jpg", // Replace with actual image path if available
   client: "DILIP BUILDCON LIMITED"
 },
 {
@@ -259,7 +259,7 @@ const Projects = () => {
   location: "Ludhiana, Punjab",
   year: "2023", // Update if needed
   details: "FORMWORK TRAVELER",
-  image: "/lovable-uploads/BALANCE CANTILEVER BRIDGE3.png", // Replace with actual image path if available
+  image: "/lovable-uploads/BALANCE CANTILEVER BRIDGE2.png", // Replace with actual image path if available
   client: "CEIGALL INDIA LIMITED"
 },
 {
