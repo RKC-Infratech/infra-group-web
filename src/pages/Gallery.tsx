@@ -157,7 +157,7 @@ const Gallery = () => {
         title="Gallery"
         subtitle="Explore Our Equipment, Facilities, and Project Achievements"
         backgroundImages={[
-          "https://images.unsplash.com/photo-1460574283810-2aab119d8511?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80"
+          "/lovable-uploads/award2.jpg"
         ]}
       />
 
