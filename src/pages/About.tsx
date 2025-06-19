@@ -68,7 +68,7 @@ const About = () => {
     },
     {
       name: "Neeraj Kumar",
-      position: "Head - Fabrication",
+      position: "Jr. Engineer",
       bio: "",
       image: "/lovable-uploads/neeraj.png"
     },
