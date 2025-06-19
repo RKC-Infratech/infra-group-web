@@ -16,22 +16,25 @@ const ImagineringBridges = () => {
 
   const projects = [
     {
-      title: "MAJOR BRIDGE OVER KRISHNA RIVER",
-      category: "Riyare Micro Construct",
-      image: "/lovable-uploads/krishna_river_bridge1.jpg",
-      type: "construction"
+      title: "MTHL- PUNE MISSING LINK",
+      category: "Imagineering Bridges India LLP",
+      image: "/lovable-uploads/mthl.jpg",
+      type: "construction",
+      client: "GAWAR CONSTRUCTION LTD"
     },
     {
       title: "MUMBAI METRO",
-      category: "Imagineering Bridges",
+      category: "Imagineering Bridges India LLP",
       image: "/lovable-uploads/mumbai_metro.jpg",
-      type: "design"
+      type: "design",
+      client: "GAWAR CONSTRUCTION LTD"
     },
     {
       title: "SHIMLA BYPASS PROJECT",
-      category: "Imagineering Bridges",
+      category: "Imagineering Bridges India LLP",
       image: "/lovable-uploads/shimla_bypass_project.png",
-      type: "design"
+      type: "design",
+      client: "GAWAR CONSTRUCTION LTD"
     }
   ];
 
