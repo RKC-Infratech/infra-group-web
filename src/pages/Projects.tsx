@@ -29,7 +29,7 @@ const Projects = () => {
       location: "Karnataka",
       year: "2023",
       details: "",
-      image: "/lovable-uploads/sharavathi_backwater_bridge.jpg", // Design
+      image: "/lovable-uploads/CABLE EXTRA-DOSED BRIDGE OVER SHARAVATHI BACK WATER1.jpg", // Design
       client: "AMRUTHA CONSTRUCTION PVT LTD"
     },
     {
