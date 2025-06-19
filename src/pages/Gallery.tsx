@@ -42,7 +42,7 @@ const Gallery = () => {
       title: "Segment Casting",
       category: "Manufacturing",
       description: "Precast segment production line",
-      image: "/lovable-uploads/indore_metro.jpg"
+      image: "/lovable-uploads/BALANCE CANTILEVER BRIDGE1.png"
     },
     {
       title: "",
@@ -90,31 +90,31 @@ const Gallery = () => {
       title: "",
       category: "",
       description: "",
-      image: "/lovable-uploads/pune_e2_project.jpg"
+      image: "/lovable-uploads/MAJOR BRIDGE OVER SHARAVATHI.jpg"
     },
     {
       title: "",
       category: "",
       description: "",
-      image: "/lovable-uploads/sharavathi_backwater_bridge.jpg"
+      image: "/lovable-uploads/REWAS REDDI COSTAL HIGHWAYS.png"
     },
     {
       title: "",
       category: "",
       description: "",
-      image: "/lovable-uploads/surat_metro.jpg"
+      image: "/lovable-uploads/Nagpur project1.jpeg"
     },
     {
       title: "",
       category: "",
       description: "",
-      image: "/lovable-uploads/surat_metro1.jpg"
+      image: "/lovable-uploads/CABLE EXTRA-DOSED BRIDGE 2.jpg"
     },
     {
       title: "",
       category: "",
       description: "",
-      image: "/lovable-uploads/vizag.jpg"
+      image: "/lovable-uploads/BANDRA – VERSOVA SEA LINK.jpg"
     },
     {
       title: "",
