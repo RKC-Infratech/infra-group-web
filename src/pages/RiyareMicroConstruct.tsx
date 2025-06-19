@@ -32,7 +32,7 @@ const RiyareMicroConstruct = () => {
   const clients = [
     "National Highway Authority of India (NHAI)",
     "Delhi Metro Rail Corporation (DMRC)",
-    "Mumbai Metro One Pvt. Ltd.",
+    "Mumbai Metro Regional Development Authority",
     "Larsen & Toubro",
     "Afcons Infrastructure",
     "Gammon India"
