@@ -1,4 +1,4 @@
-/ src/components/ClientsMarquee.tsx
+// src/components/ClientsMarquee.tsx
 
 import React from "react";
 
