@@ -14,9 +14,9 @@ const ProjectShowcase = () => {
     },
     {
       id: 2,
-      title: "MUMBAI METRO",
-      category: "Imagineering Bridges",
-      image: "/lovable-uploads/mumbai_metro.jpg",
+      title: "JOSHIMATH TO SURAITHOTA NHSL ROAD PROJECT",
+      category: "Riyare Micro Construct",
+      image: "/lovable-uploads/Joshimath-Suraithota.png",
       type: "Design"
     },
     {
