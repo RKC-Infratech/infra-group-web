@@ -219,7 +219,7 @@ const Projects = () => {
   location: "Multiple Locations – Karnataka, Chhattisgarh, Gujarat", // Based on mentioned cities; adjust if needed
   year: "2023", // Update if different
   details: "DESIGNED – SLAB CENTERING, PIER SHUTTERING, PIER CAP SHUTTERING, GIRDER SHUTTER, WATER TANK SHUTTER",
-  image: "/lovable-uploads/– WATER SUPPLY PROJECT.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/– WATER SUPPLY PROJECT4.jpg", // Replace with actual image path if available
   client: "DILIP BUILDCON LIMITED"
 },
 {
