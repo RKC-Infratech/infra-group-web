@@ -74,9 +74,21 @@ const About = () => {
     },
     {
       name: "Rupesh Kumar",
-      position: "Head - Fabrication",
+      position: "Design Engineer",
       bio: "",
       image: "/lovable-uploads/rupesh.jpg"
+    },
+    {
+      name: "Yash Ratnakar",
+      position: "Structural Engineer-Design",
+      bio: "M. Tech in Structural Engineering from Maulana Azad National Institute of technology (MANIT, Bhopal). Having Brief experience in structure design. Expert in safety-driven, efficient temporary and precast designs. Collaborative, proactive in problem-solving, and dedicated to high-quality, sustainable structures.",
+      image: "/lovable-uploads/yash.jpg"
+    },
+    {
+      name: "Jaswant Dhurve",
+      position: "Structural Engineer-Design",
+      bio: "M. Tech in Structural Engineering from Maulana Azad National Institute of technology (MANIT, Bhopal). Having Brief experience in structure design. Expert in safety-driven, efficient temporary and precast designs. Collaborative, proactive in problem-solving, and dedicated to high-quality, sustainable structures.",
+      image: "/lovable-uploads/jaswant.jpg"
     }
   ];
 
