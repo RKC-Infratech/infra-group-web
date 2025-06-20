@@ -145,6 +145,12 @@ const Gallery = () => {
       category: "",
       description: "",
       image: "/lovable-uploads/award4.jpg"
+    },
+    {
+      title: "",
+      category: "",
+      description: "",
+      image: "/lovable-uploads/award5.jpg"
     }
   ];
 
