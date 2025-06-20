@@ -61,7 +61,9 @@ const ClientsMarquee = () => {
                   <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                     <div className="text-primary text-2xl">🤝</div>
                   </div>
-                  <h3 className="text-lg font-semibold text-gray-900 break-words">{client}</h3>
+                  <h3 className="text-lg font-semibold text-gray-900 break-words">
+                    {client}
+                  </h3>
                 </div>
               ))}
             </div>
@@ -71,5 +73,4 @@ const ClientsMarquee = () => {
     </section>
   );
 };
-
 export default ClientsMarquee;
