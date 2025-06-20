@@ -15,7 +15,7 @@ const ProjectShowcase = () => {
     {
       id: 2,
       title: "JOSHIMATH TO SURAITHOTA NHSL ROAD PROJECT",
-      category: "Riyare Micro Construct",
+      category: "RKC Infratech",
       image: "/lovable-uploads/Joshimath-Suraithota.png",
       type: "Design"
     },
