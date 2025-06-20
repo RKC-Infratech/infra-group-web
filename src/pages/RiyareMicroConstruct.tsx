@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import ClientsMarquee from "@/components/ClientsMarquee";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 
@@ -157,7 +158,7 @@ const RiyareMicroConstruct = () => {
           </div>
         </div>
       </section>
-
+<ClientsMarquee />
       {/* Process Section */}
       <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
