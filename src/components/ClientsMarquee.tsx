@@ -38,7 +38,6 @@ const clients = [
   "AAKSHYA INFRA PROJECTS PVT LTD."
 ];
 
-
 const ClientsMarquee = () => {
   return (
     <section className="py-16 bg-gray-50 overflow-hidden">
@@ -50,21 +49,19 @@ const ClientsMarquee = () => {
           </p>
         </div>
 
-        <div className="relative">
-          <div className="overflow-hidden">
-            <div className="flex space-x-6 animate-marquee whitespace-nowrap">
-              {[...clients, ...clients].map((client, index) => (
-                <div
-                  key={index}
-                  className="bg-white min-w-[280px] p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow"
-                >
-                  <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <div className="text-primary text-2xl">🤝</div>
-                  </div>
-                  <h3 className="text-lg font-semibold text-gray-900">{client}</h3>
+        <div className="relative overflow-x-auto">
+          <div className="flex gap-6 min-w-max animate-marquee hover:[animation-play-state:paused] px-1">
+            {[...clients, ...clients].map((client, index) => (
+              <div
+                key={index}
+                className="bg-white w-72 shrink-0 p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow break-words"
+              >
+                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
+                  <div className="text-primary text-2xl">🤝</div>
                 </div>
-              ))}
-            </div>
+                <h3 className="text-lg font-semibold text-gray-900">{client}</h3>
+              </div>
+            ))}
           </div>
         </div>
       </div>
