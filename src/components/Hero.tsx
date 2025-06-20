@@ -15,9 +15,8 @@ const Hero = ({ title, subtitle, backgroundImages, children, className = "" }: H
   const defaultImages = [
     "/lovable-uploads/award2.jpg",
     "/lovable-uploads/cover2.jpg",
-    "/lovable-uploads/cover.jpg",
-    "/lovable-uploads/award5.jpg",
-    "/lovable-uploads/award1.jpg"
+    "/lovable-uploads/award5.jpg"
+    
   ];
   
   const images = backgroundImages || defaultImages;
