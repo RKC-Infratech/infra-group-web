@@ -99,7 +99,7 @@ const Projects = () => {
   location: "Maharashtra", // Based on Jaigad location; update if needed
   year: "2023", // Change if needed
   details: "DESIGN OF ALL THE ENABLING STRUCTURE – CASTING YARD, PRECAST SEGMENT MOULD - SHORT LINE, PRE-TENSION GIRDER MOULD, PIER SHUTTER, PIER CAP SHUTTER, TEMPORARY ACCESS BRIDGE (TAB), SEGMENT LIFTER",
-  image: "/lovable-uploads/– MAJOR BRIDGE OVER KRISHNA RIVER1.jpg", // Replace with actual image path if available
+  image: "/lovable-uploads/ANDHARA PRADESH ON EPC MODE.jpg", // Replace with actual image path if available
   client: "ARVIND TECHNO INFRA PRIVATE LIMITED"
 },
     {
