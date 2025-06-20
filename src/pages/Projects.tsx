@@ -93,7 +93,7 @@ const Projects = () => {
   client: "D.P. JAIN & INFRASTRUCTURE PVT. LTD."
 },
     {
-  title: "MAJOR BRIDGE ACROSS JAIGAD CREEK BETWEEN TASWAL AND JAIGAD ON REWAS REDDI COASTAL HIGHWAYS",
+  title: "Vizag Project",
   firm: "RKC Infratech",
   type: "Design",
   location: "Maharashtra", // Based on Jaigad location; update if needed
