@@ -78,9 +78,9 @@ export default {
 					to: { height: '0' }
 				},
 				marquee: {
-					'0%': { transform: 'translateX(100%)' },
-					'100%': { transform: 'translateX(-100%)' }
-				}
+					"0%": { transform: "translateX(0%)" },
+     					 "100%": { transform: "translateX(-50%)" }, // scroll halfway since we doubled list
+    				},
 			},
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
