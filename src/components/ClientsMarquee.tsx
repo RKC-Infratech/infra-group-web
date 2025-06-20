@@ -56,7 +56,7 @@ const ClientsMarquee = () => {
               {[...clients, ...clients].map((client, index) => (
                 <div
                   key={index}
-                  className="bg-white min-w-[280px] p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow"
+                  className="bg-white min-w-[280px] max-w-xs break-words p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow"
                 >
                   <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                     <div className="text-primary text-2xl">🤝</div>
