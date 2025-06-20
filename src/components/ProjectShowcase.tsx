@@ -7,9 +7,9 @@ const ProjectShowcase = () => {
   const projects = [
     {
       id: 1,
-      title: "MAJOR BRIDGE OVER KRISHNA RIVER",
-      category: "Riyare Micro Construct",
-      image: "/lovable-uploads/krishna_river_bridge1.jpg",
+      title: "Vizag Project",
+      category: "RKC Infratech",
+      image: "/lovable-uploads/ANDHARA PRADESH ON EPC MODE.jpg",
       type: "GROUND SUPPORT SYSTEM (UNDER SLUNG LAUNCHING GIRDER)"
     },
     {
