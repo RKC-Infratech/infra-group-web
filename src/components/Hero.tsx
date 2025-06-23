@@ -13,9 +13,9 @@ interface HeroProps {
 
 const Hero = ({ title, subtitle, backgroundImages, children, className = "" }: HeroProps) => {
   const defaultImages = [
-    "/lovable-uploads/award2.jpg",
+    "/lovable-uploads/award5.jpg",
     "/lovable-uploads/cover2.jpg",
-    "/lovable-uploads/award5.jpg"
+    "/lovable-uploads/award2.jpg"
     
   ];
   
