@@ -141,7 +141,7 @@ const About = () => {
   return (
     <div className="bg-white">
       <Hero
-        title="About RKC Infratech Group"
+        title="About Imagineering Bridges Group"
         subtitle="Building India's Infrastructure Legacy Since 2008"
         className="mb-0"
       />
