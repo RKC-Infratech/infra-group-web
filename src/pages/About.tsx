@@ -142,7 +142,7 @@ const About = () => {
     <div className="bg-white">
       <Hero
         title="About Imagineering Bridges Group"
-        subtitle="Building India's Infrastructure Legacy Since 2008"
+        subtitle="Building India's Infrastructure Legacy Since 2016"
         className="mb-0"
       />
 
