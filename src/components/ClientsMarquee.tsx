@@ -23,7 +23,7 @@ const clients = [
   "VIJAY MISTRY CONSTRUCTION COMPANY PVT LTD.",
   "R K INFRA",
   "AJAY KUMAR SHARMA",
-  "ZETWERK MANUFACTURING BUSINESSES PVT. LTD.",
+  "ZETWERK MANUFACTURING BUSSINESSES PVT. LTD.",
   "GPT INFRAPROJECTS LIMITED.",
   "APCO INFRATECH PVT. LTD.",
   "J KUMAR INFRA PROJECTS LIMITED",
@@ -47,13 +47,13 @@ const ClientsMarquee = () => {
           </p>
         </div>
 
-        {/* Marquee container */}
+        {/* Smooth marquee */}
         <div className="relative overflow-hidden">
-          <div className="flex w-[200%] animate-marquee space-x-6">
+          <div className="flex animate-marquee space-x-6 w-fit">
             {[...clients, ...clients].map((client, index) => (
               <div
                 key={index}
-                className="bg-white min-w-[280px] max-w-xs p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow break-words"
+                className="bg-white min-w-[260px] max-w-xs p-6 rounded-lg shadow-md text-center hover:shadow-lg transition-shadow break-words"
               >
                 <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center mx-auto mb-4">
                   <div className="text-primary text-2xl">🤝</div>
