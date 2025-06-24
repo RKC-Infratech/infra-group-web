@@ -16,7 +16,7 @@ const Testimonials = () => {
     },
     {
       name: "Shri Arun Kumar",
-      position: "Director",
+      position: "Director Projects",
       company: "Arvind Techno Group",
       content:
         "Working with RKC Infratech has been a game-changer for our construction initiatives. Their skilled team provided exceptional design solutions for our temporary structures, ensuring that we met our deadlines while maintaining the highest quality standards. They truly understand the needs of their clients and deliver outstanding results.",
