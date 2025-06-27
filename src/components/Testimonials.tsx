@@ -19,7 +19,7 @@ const Testimonials = () => {
       position: "Director Projects",
       company: "Arvind Techno Group",
       content:
-        "Working with RKC Infratech has been a game-changer for our construction initiatives. Their skilled team provided exceptional design solutions for our temporary structures, ensuring that we met our deadlines while maintaining the highest quality standards. They truly understand the needs of their clients and deliver outstanding results.",
+        "RKC Infratech is very cooperative and supportive for our temporary construction initiatives. Their skilled team has provided timely exceptional design solutions for our temporary structures, ensuring our deadlines while maintaining the highest quality standards. They truly understand the needs of ours and delivered outstanding results.",
       rating: 5,
     },
     {
