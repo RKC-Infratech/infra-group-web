@@ -85,10 +85,10 @@ const About = () => {
       image: "/lovable-uploads/yash.jpg"
     },
     {
-      name: "Jaswant Dhurve",
+      name: "Jasvant Dhurwe",
       position: "Structural Engineer-Design",
       bio: "M. Tech in Structural Engineering from Maulana Azad National Institute of technology (MANIT, Bhopal). Having Brief experience in structure design. Expert in safety-driven, efficient temporary and precast designs. Collaborative, proactive in problem-solving, and dedicated to high-quality, sustainable structures.",
-      image: "/lovable-uploads/jaswant.jpg"
+      image: "/lovable-uploads/jasvant.jpg"
     }
   ];
 
