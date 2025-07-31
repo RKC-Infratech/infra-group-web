@@ -7,6 +7,22 @@ const Gallery = () => {
   // categories and activeCategory are no longer needed
   // galleryItems stay the same
   const galleryItems = [
+     {
+      title: "Precast Segment Mould",
+      category: "Equipment",
+      description: "Precision engineered moulds for bridge segments",
+      image: "/lovable-uploads/ibimage.jpg"
+    }, {
+      title: "Launching Girder",
+      category: "Equipment",
+      description: "Precision engineered moulds for bridge segments",
+      image: "/lovable-uploads/ibimage1.jpg"
+    }, {
+      title: "Precast Segment Mould",
+      category: "Equipment",
+      description: "Precision engineered moulds for bridge segments",
+      image: "/lovable-uploads/ibimage2.jpg"
+    },
     {
       title: "Precast Segment Mould",
       category: "Equipment",
