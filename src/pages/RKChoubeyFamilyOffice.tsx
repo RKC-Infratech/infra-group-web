@@ -35,7 +35,7 @@ const RKChoubeyFamilyOffice = () => {
     {
       company: "New Shop",
       sector: "E-commerce",
-      description: "New Shop is India's leading chain of 24/7 convenience stores, meeting consumer needs anytime, anywhere. We're transforming offline retail by opening stores in urban areas and mass transit hubs (airports, gas stations, railway stations, tourist spots), turning traditional shops into trendy, social spaces for youth and communities. With a tech-enabled backend and profitable franchise-run operations, New Shop leads a new retail experience, offering fresh cafe-styled food, groceries, over-the-counter medicines, and essentials like ATMs, printing, and courier facilities.",
+      description: "New Shop is India’s leading 24/7 convenience store chain, redefining offline retail in urban areas and transit hubs. With tech-enabled operations and franchise-run stores, we offer fresh cafe-style food, groceries, OTC medicines, and essential services like ATMs, printing, and courier facilities — creating trendy, community-focused spaces for modern consumers.",
       website: "https://newshop.in"
     },
     {
