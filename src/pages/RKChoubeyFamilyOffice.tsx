@@ -33,11 +33,36 @@ const RKChoubeyFamilyOffice = () => {
 
   const investments = [
     {
+      company: "New Shop",
+      sector: "E-commerce",
+      description: "New Shop is India's leading chain of 24/7 convenience stores, meeting consumer needs anytime, anywhere. We're transforming offline retail by opening stores in urban areas and mass transit hubs (airports, gas stations, railway stations, tourist spots), turning traditional shops into trendy, social spaces for youth and communities. With a tech-enabled backend and profitable franchise-run operations, New Shop leads a new retail experience, offering fresh cafe-styled food, groceries, over-the-counter medicines, and essentials like ATMs, printing, and courier facilities.",
+      website: "https://newshop.in"
+    },
+    {
+      company: "Melvano",
+      sector: "Ed-Tech",
+      description: "Melvano is an AI-powered learning platform designed for JEE and NEET aspirants. With personalized practice, expert mentorship, and smart performance tracking, it helps students learn faster and score higher.",
+      website: "https://www.melvano.com"
+    },
+    {
+      company: "Mingout",
+      sector: "Social Networking",
+      description: "Mingout is an Indian lifestyle and dating platform designed to foster meaningful connections through shared experiences. Founded by graduates from IIM Calcutta, IIT Bombay, and IIT BHU, Mingout aims to redefine dating by moving beyond superficial swiping and promoting genuine interactions.",
+      website: "https://www.mingout.com"
+    },
+    {
+      company: "Imaginesteel",
+      sector: "Manufacturing",
+      description: "ImagineSteel is a trusted name in quality steel manufacturing — combining advanced technology, superior materials, and lasting reliability.",
+      website: ""
+    },
+    {
       company: "Legum Talk",
       sector: "Legal Community",
       description: "India's premier professional network for legal professionals. Connect, collaborate, and stay informed with the legal community.",
       website: "https://www.legumtalk.com"
     },
+    
     {
       company: "National Will Register",
       sector: "Will Storage Facility",
