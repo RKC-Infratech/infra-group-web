@@ -52,7 +52,7 @@ const RKChoubeyFamilyOffice = () => {
     },
     {
       company: "Imaginesteel",
-      sector: "Manufacturing",
+      sector: "Manufacturing and Trading",
       description: "ImagineSteel is a trusted name in quality steel manufacturing — combining advanced technology, superior materials, and lasting reliability.",
       website: "#"
     },
@@ -191,6 +191,7 @@ const RKChoubeyFamilyOffice = () => {
                   <p className="text-primary font-medium mb-2">{investment.sector}</p>
                   <p className="text-gray-600">{investment.description}</p>
                   <a href="{investments.website}" target="_blank">Visit Website</a>
+                  <br>
                   <a href="{investments.website}" target="_blank" className="text-gray-600">{investment.website}</a>
                 </div>
               </div>
