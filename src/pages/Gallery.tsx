@@ -148,13 +148,13 @@ const Gallery = () => {
       title: "",
       category: "",
       description: "",
-      image: "/lovable-uploads/award2.jpg"
+      image: "/lovable-uploads/imgeneeringfactory1.jpeg"
     },
     {
       title: "",
       category: "",
       description: "",
-      image: "/lovable-uploads/award3.jpg"
+      image: "/lovable-uploads/imgeneeringfactory1.jpeg"
     },
     {
       title: "",
