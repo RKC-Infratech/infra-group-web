@@ -191,7 +191,7 @@ const RKChoubeyFamilyOffice = () => {
                   <p className="text-primary font-medium mb-2">{investment.sector}</p>
                   <p className="text-gray-600">{investment.description}</p>
                   <a href="{investment.website}" target="_blank">Visit Website</a>
-                  <p className="text-gray-600">{investment.website}</p>
+                  <a href="{investment.website}" target="_blank" className="text-gray-600">{investment.website}</a>
                 </div>
               </div>
             ))}
