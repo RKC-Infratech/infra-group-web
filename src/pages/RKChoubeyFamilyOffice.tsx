@@ -32,6 +32,24 @@ const RKChoubeyFamilyOffice = () => {
   ];
 
   const investments = [
+     {
+      company: "Bira91",
+      sector: "beverages sector",
+      description: "As one of the fastest growing brands in India, we’ve built a diverse portfolio of award-winning beers, one for every occasion. Let’s bring in color & flavor to the world of beer, one beer at a time.",
+      website: "https://bira91.com"
+    },
+     {
+      company: "OYO Rooms",
+      sector: "Hospitality",
+      description: "OYO is a global platform that empowers entrepreneurs and small businesses with hotels and homes by providing full stack technology that increases earnings and eases operations. Bringing affordable and trusted accommodation that guests can book instantly.",
+      website: "https://www.oyorooms.com"
+    },
+    {
+      company: "Pharmeasy",
+      sector: "Medical Sector",
+      description: "PharmEasy is a consumer healthcare “super app” that provides consumers with on-demand, home delivered access to a wide range of prescription, OTC pharmaceutical, other consumer healthcare products, comprehensive diagnostic test services, and teleconsultations thereby serving their healthcare needs.",
+      website: "https://pharmeasy.in"
+    },
     {
       company: "New Shop",
       sector: "E-commerce",
