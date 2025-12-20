@@ -7,6 +7,13 @@ const Gallery = () => {
   // categories and activeCategory are no longer needed
   // galleryItems stay the same
   const galleryItems = [
+    
+     {
+      title: "Award",
+      category: "Award",
+      description: "",
+      image: "/lovable-uploads/awardimagerkc.jpeg"
+    },
      {
       title: "Precast Segment Mould",
       category: "Equipment",
