@@ -11,7 +11,7 @@ const COMPANY = "Imagineering Bridges India LLP";
 
 /** Local assets — bridge / site / engineering theme */
 const IMG = {
-  hero: "/hiring/hero-bridge.jpg",
+  hero: "/lovable-uploads/cover2.jpg",
   blueprint: "/hiring/blueprint.jpg",
   site: "/hiring/construction-site.jpg",
   steel: "/hiring/steel-structure.jpg",
