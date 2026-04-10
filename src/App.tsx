@@ -17,6 +17,7 @@ import RiyareMicroConstruct from "./pages/RiyareMicroConstruct";
 import RKChoubeyFamilyOffice from "./pages/RKChoubeyFamilyOffice";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
+import StructuralDesignerHiring from "./pages/StructuralDesignerHiring";
 import AdminPortal from "./pages/AdminPortal";
 import ScrollToTop from "@/components/ScrollToTop";
 
@@ -44,6 +45,7 @@ const App = () => (
               <Route path="/riyare-micro-construct" element={<RiyareMicroConstruct />} />
               <Route path="/rkchoubey-family-office" element={<RKChoubeyFamilyOffice />} />
               <Route path="/contact" element={<Contact />} />
+                            <Route path="/hiring/structural-designer" element={<StructuralDesignerHiring />} />
               <Route path="/admin" element={<AdminPortal />} />
               <Route path="*" element={<NotFound />} />
             </Routes>
