@@ -15,6 +15,7 @@ import RKCInfratech from "./pages/RKCInfratech";
 import ImagineringBridges from "./pages/ImagineringBridges";
 import RiyareMicroConstruct from "./pages/RiyareMicroConstruct";
 import RKChoubeyFamilyOffice from "./pages/RKChoubeyFamilyOffice";
+import ImaginesteelPrivateLimited from "./pages/ImaginesteelPrivateLimited";
 import Contact from "./pages/Contact";
 import NotFound from "./pages/NotFound";
 import StructuralDesignerHiring from "./pages/StructuralDesignerHiring";
@@ -44,6 +45,7 @@ const App = () => (
               <Route path="/imagineering-bridges" element={<ImagineringBridges />} />
               <Route path="/riyare-micro-construct" element={<RiyareMicroConstruct />} />
               <Route path="/rkchoubey-family-office" element={<RKChoubeyFamilyOffice />} />
+              <Route path="/imaginesteel" element={<ImaginesteelPrivateLimited />} />
               <Route path="/contact" element={<Contact />} />
                             <Route path="/hiring/structural-designer" element={<StructuralDesignerHiring />} />
               <Route path="/admin" element={<AdminPortal />} />
