@@ -72,7 +72,7 @@ const RKChoubeyFamilyOffice = () => {
       company: "Imaginesteel",
       sector: "Manufacturing and Trading",
       description: "ImagineSteel is a trusted name in quality steel manufacturing — combining advanced technology, superior materials, and lasting reliability.",
-      website: "#"
+      website: "/imaginesteel"
     },
     {
       company: "Legum Talk",
@@ -207,9 +207,17 @@ const RKChoubeyFamilyOffice = () => {
                 <div className="p-6">
                   <h3 className="text-xl font-semibold mb-2">{investment.company}</h3>
                   <p className="text-primary font-medium mb-2">{investment.sector}</p>
-                  <p className="text-gray-600">{investment.description}</p>
-                  <a href="{investments.website}" target="_blank">Visit Website</a>
-                  <p className="text-gray-600">{investment.website}</p>
+                  <p className="text-gray-600 mb-3">{investment.description}</p>
+                  {investment.website && investment.website !== "#" && (
+                    <a
+                      href={investment.website}
+                      target={investment.website.startsWith("http") ? "_blank" : undefined}
+                      rel={investment.website.startsWith("http") ? "noopener noreferrer" : undefined}
+                      className="text-primary font-medium hover:underline"
+                    >
+                      Visit Website
+                    </a>
+                  )}
                 </div>
               </div>
             ))}
