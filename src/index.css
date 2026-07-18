@@ -121,6 +121,286 @@
   }
 }
 
+/* Imagine Steel — page-scoped industrial theme & motion */
+.steel-page {
+  --steel-ink: #12151a;
+  --steel-slate: #2a313c;
+  --steel-mist: #e8eaed;
+  --steel-ember: #d97706;
+  --steel-ember-soft: #f59e0b;
+  --steel-metal: #6b7280;
+  font-family: "Source Sans 3", system-ui, sans-serif;
+  color: var(--steel-ink);
+  background:
+    radial-gradient(ellipse 80% 50% at 10% 0%, rgba(217, 119, 6, 0.06), transparent 55%),
+    radial-gradient(ellipse 60% 40% at 90% 20%, rgba(42, 49, 60, 0.08), transparent 50%),
+    linear-gradient(180deg, #f7f8fa 0%, #eef0f3 40%, #f7f8fa 100%);
+}
+
+.steel-page .steel-display {
+  font-family: "Barlow Condensed", system-ui, sans-serif;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+}
+
+/* Reveal variants */
+.steel-page .steel-reveal,
+.steel-page .steel-reveal-up {
+  opacity: 0;
+  transform: translateY(36px);
+  transition: opacity 0.75s cubic-bezier(0.22, 1, 0.36, 1), transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.steel-page .steel-reveal-left {
+  opacity: 0;
+  transform: translateX(-48px);
+  transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1), transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.steel-page .steel-reveal-right {
+  opacity: 0;
+  transform: translateX(48px);
+  transition: opacity 0.8s cubic-bezier(0.22, 1, 0.36, 1), transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.steel-page .steel-reveal-scale {
+  opacity: 0;
+  transform: scale(0.88);
+  transition: opacity 0.7s cubic-bezier(0.22, 1, 0.36, 1), transform 0.7s cubic-bezier(0.34, 1.4, 0.64, 1);
+}
+.steel-page .steel-reveal-clip {
+  opacity: 0;
+  clip-path: inset(0 100% 0 0);
+  transition: opacity 0.5s ease, clip-path 0.9s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.steel-page .steel-reveal-rotate {
+  opacity: 0;
+  transform: rotateX(18deg) translateY(24px);
+  transform-origin: top center;
+  transition: opacity 0.75s ease, transform 0.75s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.steel-page .steel-reveal.is-visible,
+.steel-page .steel-reveal-up.is-visible,
+.steel-page .steel-reveal-left.is-visible,
+.steel-page .steel-reveal-right.is-visible {
+  opacity: 1;
+  transform: none;
+}
+.steel-page .steel-reveal-scale.is-visible {
+  opacity: 1;
+  transform: scale(1);
+}
+.steel-page .steel-reveal-clip.is-visible {
+  opacity: 1;
+  clip-path: inset(0 0 0 0);
+}
+.steel-page .steel-reveal-rotate.is-visible {
+  opacity: 1;
+  transform: none;
+}
+
+.steel-page .steel-reveal-delay-1 { transition-delay: 0.1s; }
+.steel-page .steel-reveal-delay-2 { transition-delay: 0.2s; }
+.steel-page .steel-reveal-delay-3 { transition-delay: 0.3s; }
+.steel-page .steel-reveal-delay-4 { transition-delay: 0.45s; }
+.steel-page .steel-reveal-delay-5 { transition-delay: 0.6s; }
+
+@keyframes steelShimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 200% 50%; }
+}
+
+@keyframes steelForgePulse {
+  0%, 100% { opacity: 0.35; transform: scale(1); }
+  50% { opacity: 0.65; transform: scale(1.08); }
+}
+
+@keyframes steelBarFill {
+  from { width: 0%; }
+  to { width: var(--bar-width, 83%); }
+}
+
+@keyframes steelMarquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+@keyframes steelMarqueeReverse {
+  0% { transform: translateX(-50%); }
+  100% { transform: translateX(0); }
+}
+
+@keyframes steelSpark {
+  0%, 100% { opacity: 0.2; transform: translateY(0); }
+  50% { opacity: 0.9; transform: translateY(-6px); }
+}
+
+@keyframes steelFloat {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+@keyframes steelFloatSlow {
+  0%, 100% { transform: translateY(0) scale(1); }
+  50% { transform: translateY(-8px) scale(1.02); }
+}
+
+@keyframes steelPulseRing {
+  0% { transform: scale(0.85); opacity: 0.7; }
+  70% { transform: scale(1.25); opacity: 0; }
+  100% { transform: scale(1.25); opacity: 0; }
+}
+
+@keyframes steelSwing {
+  0%, 100% { transform: rotate(-1.5deg); }
+  50% { transform: rotate(1.5deg); }
+}
+
+@keyframes steelSlideUpIn {
+  from { opacity: 0; transform: translateY(40px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes steelCtaGlow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(245, 158, 11, 0.45); }
+  50% { box-shadow: 0 0 28px 4px rgba(245, 158, 11, 0.35); }
+}
+
+@keyframes steelKenBurns {
+  from { transform: scale(1.05) translate(0, 0); }
+  to { transform: scale(1.14) translate(-2%, -1.5%); }
+}
+
+@keyframes steelHeroFade {
+  0%, 28% { opacity: 1; }
+  33%, 95% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes steelCountPop {
+  0% { transform: scale(0.6); opacity: 0; }
+  60% { transform: scale(1.08); opacity: 1; }
+  100% { transform: scale(1); opacity: 1; }
+}
+
+@keyframes steelScanLine {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+.steel-page .steel-shimmer-text {
+  background: linear-gradient(
+    110deg,
+    #f8fafc 0%,
+    #f8fafc 35%,
+    #fbbf24 50%,
+    #f8fafc 65%,
+    #f8fafc 100%
+  );
+  background-size: 200% 100%;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  animation: steelShimmer 4.5s ease-in-out infinite;
+}
+
+.steel-page .steel-forge-glow {
+  animation: steelForgePulse 4s ease-in-out infinite;
+}
+
+.steel-page .steel-bar-fill {
+  width: 0%;
+}
+
+.steel-page .steel-bar-fill.is-visible {
+  animation: steelBarFill 1.4s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+.steel-page .steel-marquee-track {
+  animation: steelMarquee 35s linear infinite;
+}
+
+.steel-page .steel-marquee-track-reverse {
+  animation: steelMarqueeReverse 40s linear infinite;
+}
+
+.steel-page .steel-spark {
+  animation: steelSpark 2.8s ease-in-out infinite;
+}
+
+.steel-page .steel-float {
+  animation: steelFloat 5s ease-in-out infinite;
+}
+
+.steel-page .steel-float-slow {
+  animation: steelFloatSlow 7s ease-in-out infinite;
+}
+
+.steel-page .steel-float-delay {
+  animation-delay: 1.2s;
+}
+
+.steel-page .steel-pulse-ring {
+  animation: steelPulseRing 2.4s ease-out infinite;
+}
+
+.steel-page .steel-swing {
+  animation: steelSwing 6s ease-in-out infinite;
+}
+
+.steel-page .steel-cta-glow {
+  animation: steelCtaGlow 2.8s ease-in-out infinite;
+}
+
+.steel-page .steel-hero-slide {
+  background-size: cover;
+  background-position: center;
+  animation: steelKenBurns 16s ease-in-out infinite alternate, steelHeroFade 18s linear infinite;
+}
+
+.steel-page .steel-hero-slide:nth-child(2) {
+  animation-delay: 0s, -6s;
+}
+
+.steel-page .steel-hero-slide:nth-child(3) {
+  animation-delay: 0s, -12s;
+}
+
+.steel-page .steel-img-zoom {
+  overflow: hidden;
+}
+
+.steel-page .steel-img-zoom img {
+  transition: transform 0.8s cubic-bezier(0.22, 1, 0.36, 1);
+}
+
+.steel-page .steel-img-zoom:hover img {
+  transform: scale(1.08);
+}
+
+.steel-page .steel-scan::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(transparent, rgba(245, 158, 11, 0.12), transparent);
+  height: 40%;
+  animation: steelScanLine 3.5s linear infinite;
+  pointer-events: none;
+}
+
+.steel-page .steel-count-pop.is-visible {
+  animation: steelCountPop 0.7s cubic-bezier(0.34, 1.4, 0.64, 1) forwards;
+}
+
+.steel-page .steel-stagger-child.is-visible > * {
+  animation: steelSlideUpIn 0.55s cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+.steel-page .steel-stagger-child.is-visible > *:nth-child(1) { animation-delay: 0.05s; }
+.steel-page .steel-stagger-child.is-visible > *:nth-child(2) { animation-delay: 0.12s; }
+.steel-page .steel-stagger-child.is-visible > *:nth-child(3) { animation-delay: 0.19s; }
+.steel-page .steel-stagger-child.is-visible > *:nth-child(4) { animation-delay: 0.26s; }
+.steel-page .steel-stagger-child.is-visible > *:nth-child(5) { animation-delay: 0.33s; }
+.steel-page .steel-stagger-child.is-visible > *:nth-child(6) { animation-delay: 0.4s; }
+.steel-page .steel-stagger-child.is-visible > *:nth-child(7) { animation-delay: 0.47s; }
+
 /* Smooth scrolling for anchor links */
 html {
   scroll-behavior: smooth;
