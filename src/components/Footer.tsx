@@ -1,17 +1,36 @@
-
 import { Facebook, Twitter, Linkedin, Instagram, Mail, Phone, MapPin, Clock } from "lucide-react";
+import { useLocation } from "react-router-dom";
 
 const Footer = () => {
+  const location = useLocation();
+  const isImagineSteel = location.pathname === "/imaginesteel";
+
   return (
     <footer className="bg-gray-900 text-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div className="lg:col-span-1">
-            <h3 className="text-2xl font-bold mb-4">Imagineering Bridges Group</h3>
-            <p className="text-gray-300 mb-6">
-              Engineering, Building, and Funding India's Future through innovative infrastructure solutions and strategic investments.
-            </p>
+            {isImagineSteel ? (
+              <>
+                <img
+                  src="/lovable-uploads/imaginesteel-logo.png"
+                  alt="Imagine Steel Private Limited"
+                  className="h-16 w-auto mb-4"
+                />
+                <p className="text-gray-300 mb-6">
+                  Engineering Strength. Building Trust. Authorized Marketing &amp; Distribution Partner
+                  in India for High Strength Thread Bar Systems.
+                </p>
+              </>
+            ) : (
+              <>
+                <h3 className="text-2xl font-bold mb-4">Imagineering Bridges Group</h3>
+                <p className="text-gray-300 mb-6">
+                  Engineering, Building, and Funding India's Future through innovative infrastructure solutions and strategic investments.
+                </p>
+              </>
+            )}
             <div className="flex space-x-4">
               <a href="#" className="text-gray-300 hover:text-white transition-colors">
                 <Facebook size={24} />
@@ -50,6 +69,11 @@ const Footer = () => {
               <li>
                 <a href="/rkchoubey-family-office" className="hover:text-white transition-colors">
                   R.K. Choubey Family Office
+                </a>
+              </li>
+              <li>
+                <a href="/imaginesteel" className="hover:text-white transition-colors">
+                  Imagine Steel Private Limited
                 </a>
               </li>
             </ul>
@@ -129,7 +153,11 @@ const Footer = () => {
         <div className="border-t border-gray-700 mt-8 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-center md:text-left text-gray-300 mb-4 md:mb-0">
-              <p>&copy; 2024 Imagineering Bridges Group. All rights reserved.</p>
+              <p>
+                &copy; 2024{" "}
+                {isImagineSteel ? "Imagine Steel Private Limited" : "Imagineering Bridges Group"}.
+                All rights reserved.
+              </p>
             </div>
             <div className="flex space-x-6 text-gray-300 text-sm">
               <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
