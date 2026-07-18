@@ -16,6 +16,7 @@ const Navigation = () => {
         { path: "/imagineering-bridges", label: "Imagineering Bridges India LLP" },
         { path: "/riyare-micro-construct", label: "Riyare Micro Construct LLP" },
         { path: "/rkchoubey-family-office", label: "R.K. Choubey Family Office" },
+        { path: "/imaginesteel", label: "Imagine Steel Private Limited" },
       ]
     },
     { path: "/projects", label: "Projects" },
@@ -50,6 +51,15 @@ const Navigation = () => {
           src="/lovable-uploads/family-office-logo.jpg" 
           alt="R.K. Choubey Family Office" 
           className="h-8 md:h-10"
+        />
+      );
+    }
+    if (location.pathname === "/imaginesteel") {
+      return (
+        <img 
+          src="/lovable-uploads/imaginesteel-logo.png" 
+          alt="Imagine Steel Private Limited" 
+          className="h-11 md:h-14 w-auto"
         />
       );
     }
